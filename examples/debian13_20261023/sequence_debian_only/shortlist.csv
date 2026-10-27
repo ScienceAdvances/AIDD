@@ -1,0 +1,5 @@
+candidate_id,source,sequence,mutation_count,mutations_parsed,mutations_pdb,gravy,charge_pH7_free_termini,molecular_weight_free_termini,new_cysteines,new_proline_review_positions,hard_pass,exclusion_reasons,mpnn_nll_mean,decoding_order_sd,delta_nll_vs_wt,delta_nll_order_sd,fraction_orders_better_than_wt,pareto,shortlisted
+WT,native,ETFSDLWKLLPEN,0,,,-0.5923076923076924,-2.160240159387953,1591.7585,0,,True,,1.9176931381225586,0.03290107846260071,0.0,0.0,0.0,True,True
+single_D5E,single_mutant,ETFSELWKLLPEN,1,D5E,D21E,-0.5923076923076924,-2.158550458354587,1605.7850999999998,0,,True,,1.7470042705535889,0.0327189564704895,-0.17068907618522644,0.011948139406740665,1.0,True,True
+single_S4E,single_mutant,ETFEDLWKLLPEN,1,S4E,S20E,-0.8,-3.1574296974147424,1633.7952,0,,True,,1.7673014402389526,0.02903788350522518,-0.1503918468952179,0.013915305957198143,1.0,True,True
+single_L9K,single_mutant,ETFSDLWKKLPEN,1,L9K,L25K,-1.1846153846153846,-1.1612391603869536,1606.7731999999999,0,,True,,1.7776105403900146,0.03336343169212341,-0.14008274674415588,0.016258543357253075,1.0,True,True

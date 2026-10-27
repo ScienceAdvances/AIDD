@@ -1,0 +1,126 @@
+[
+  {
+    "name": "reference",
+    "argv": [
+      "trjconv",
+      "-s",
+      "reference.tpr",
+      "-f",
+      "reference.gro",
+      "-o",
+      "reference_protein.pdb",
+      "-pbc",
+      "cluster"
+    ],
+    "stdin": "Protein\nProtein\n"
+  },
+  {
+    "name": "whole",
+    "argv": [
+      "trjconv",
+      "-s",
+      "reference.tpr",
+      "-f",
+      "raw.xtc",
+      "-o",
+      "whole.xtc",
+      "-pbc",
+      "whole"
+    ],
+    "stdin": "Protein\n"
+  },
+  {
+    "name": "nojump",
+    "argv": [
+      "trjconv",
+      "-s",
+      "reference.tpr",
+      "-f",
+      "whole.xtc",
+      "-o",
+      "nojump.xtc",
+      "-pbc",
+      "nojump"
+    ],
+    "stdin": "Protein\n"
+  },
+  {
+    "name": "center",
+    "argv": [
+      "trjconv",
+      "-s",
+      "reference.tpr",
+      "-f",
+      "nojump.xtc",
+      "-o",
+      "protein_centered.xtc",
+      "-center",
+      "-pbc",
+      "mol"
+    ],
+    "stdin": "Protein\nProtein\n"
+  },
+  {
+    "name": "rmsd_tpr_reference",
+    "argv": [
+      "rms",
+      "-s",
+      "reference.tpr",
+      "-f",
+      "protein_centered.xtc",
+      "-o",
+      "rmsd_ca_to_tpr_reference.xvg",
+      "-tu",
+      "ns",
+      "-xvg",
+      "none"
+    ],
+    "stdin": "C-alpha\nC-alpha\n"
+  },
+  {
+    "name": "rmsd",
+    "argv": [
+      "rms",
+      "-s",
+      "reference_protein.pdb",
+      "-f",
+      "protein_centered.xtc",
+      "-o",
+      "rmsd_ca_to_em.xvg",
+      "-tu",
+      "ns",
+      "-xvg",
+      "none"
+    ],
+    "stdin": "C-alpha\nC-alpha\n"
+  },
+  {
+    "name": "rmsf",
+    "argv": [
+      "rmsf",
+      "-s",
+      "reference.tpr",
+      "-f",
+      "protein_centered.xtc",
+      "-o",
+      "rmsf_ca.xvg",
+      "-res",
+      "-xvg",
+      "none"
+    ],
+    "stdin": "C-alpha\n"
+  },
+  {
+    "name": "energy",
+    "argv": [
+      "energy",
+      "-f",
+      "md.edr",
+      "-o",
+      "thermodynamics.xvg",
+      "-xvg",
+      "none"
+    ],
+    "stdin": "Temperature\nPressure\nDensity\n0\n"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-27",
+  "passed": true,
+  "offline_analysis_chapters": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "offline_analysis_all_passed": true,
+  "relocation": {
+    "all_14_passed": true,
+    "working_directory_outside_repository": true,
+    "repository_path_contains_spaces": true,
+    "distributed_inputs_unchanged": true
+  },
+  "new_run_entry": {
+    "13_chapter_command_plans_validated": true,
+    "preview_has_no_output_side_effects": true,
+    "chapter04_execute_passed": true,
+    "expected_outputs_checked": true,
+    "GPU_inference_reexecuted_during_packaging": false
+  },
+  "proteinmpnn_asset": {
+    "size_and_sha256_cache_validation_passed": true,
+    "network_redownload_tested": false,
+    "weights_in_base_repository": false
+  },
+  "md_subset": {
+    "frames": 201,
+    "ca_atoms": 286,
+    "max_rmsd_error_nm": 4.933668231968391e-06
+  },
+  "syntax_checked_tutorial_blocks": 80,
+  "scope": "Packaging and portable offline exercise validation. Existing author Debian GPU outputs supplied as examples. No new environment or driver changes."
+}

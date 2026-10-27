@@ -1,0 +1,26 @@
+{
+  "name": "rfantibody_mpnn_workdir",
+  "command": [
+    "/opt/bioinfra/repos/RFantibody/.venv/bin/python",
+    "/opt/bioinfra/repos/RFantibody/scripts/proteinmpnn_interface_design.py",
+    "-quiver",
+    "${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/rfantibody/1_rfdiffusion.qv",
+    "-outquiver",
+    "${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/rfantibody/2_proteinmpnn.qv",
+    "-checkpoint_path",
+    "/opt/bioinfra/repos/RFantibody/weights/ProteinMPNN_v48_noise_0.2.pt",
+    "-checkpoint_name",
+    "${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/rfantibody/mpnn_check.point",
+    "-seqs_per_struct",
+    "2",
+    "-temperature",
+    "0.2",
+    "-debug",
+    "-deterministic"
+  ],
+  "cwd": "${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023",
+  "started": "2026-10-23T19:00:23.672764+08:00",
+  "returncode": 0,
+  "success": true,
+  "elapsed_seconds": 12.40777497900035
+}

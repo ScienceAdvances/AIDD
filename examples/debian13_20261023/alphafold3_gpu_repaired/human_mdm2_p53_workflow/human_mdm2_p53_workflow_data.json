@@ -1,0 +1,32 @@
+{
+  "dialect": "alphafold3",
+  "version": 4,
+  "name": "human_mdm2_p53_workflow",
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+        "modifications": [],
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "protein": {
+        "id": "B",
+        "sequence": "ETFSDLWKLLPEN",
+        "modifications": [],
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    }
+  ],
+  "modelSeeds": [
+    20261020
+  ],
+  "bondedAtomPairs": null,
+  "userCCD": null
+}

@@ -1,0 +1,119 @@
+{
+  "observations": 204,
+  "panel_groups": 49,
+  "source_books_modified": false,
+  "new_hypothesis_tests": false,
+  "donor_pairing_assumed": false,
+  "input_directory": "${REPOSITORY_ROOT}/data/cart",
+  "sheets": {
+    "Source data - Main figures.xlsx": [
+      {
+        "sheet": "Figure 1",
+        "rows": 38,
+        "columns": 24
+      },
+      {
+        "sheet": "Figure 2",
+        "rows": 53,
+        "columns": 21
+      },
+      {
+        "sheet": "Figure 2G",
+        "rows": 54,
+        "columns": 10
+      },
+      {
+        "sheet": "Figure 3",
+        "rows": 32,
+        "columns": 15
+      },
+      {
+        "sheet": "Figure 4",
+        "rows": 31,
+        "columns": 20
+      },
+      {
+        "sheet": "Figure 4F",
+        "rows": 46,
+        "columns": 6
+      }
+    ],
+    "Source data - Supplementary figures.xlsx": [
+      {
+        "sheet": "Fig. S1",
+        "rows": 13,
+        "columns": 12
+      },
+      {
+        "sheet": "Fig. S2",
+        "rows": 49,
+        "columns": 26
+      },
+      {
+        "sheet": "Fig. S3",
+        "rows": 19,
+        "columns": 21
+      },
+      {
+        "sheet": "Fig. S4",
+        "rows": 10,
+        "columns": 2
+      },
+      {
+        "sheet": "Fig. S5",
+        "rows": 32,
+        "columns": 26
+      },
+      {
+        "sheet": "Fig. S5B",
+        "rows": 107,
+        "columns": 4
+      },
+      {
+        "sheet": "Fig. S6A-K",
+        "rows": 38,
+        "columns": 30
+      },
+      {
+        "sheet": "Fig. S6L-T",
+        "rows": 41,
+        "columns": 25
+      },
+      {
+        "sheet": "Fig. S7",
+        "rows": 37,
+        "columns": 22
+      },
+      {
+        "sheet": "Fig. S8",
+        "rows": 26,
+        "columns": 11
+      },
+      {
+        "sheet": "Fig. S8E",
+        "rows": 64,
+        "columns": 12
+      },
+      {
+        "sheet": "Fig. S9",
+        "rows": 39,
+        "columns": 17
+      },
+      {
+        "sheet": "Fig. S9E",
+        "rows": 50,
+        "columns": 4
+      },
+      {
+        "sheet": "Fig. S10",
+        "rows": 36,
+        "columns": 26
+      },
+      {
+        "sheet": "Fig. S10C",
+        "rows": 96,
+        "columns": 8
+      }
+    ]
+  }
+}

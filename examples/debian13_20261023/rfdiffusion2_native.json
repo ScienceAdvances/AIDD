@@ -1,0 +1,16 @@
+{
+  "name": "rfdiffusion2_native",
+  "command": [
+    "/opt/micromamba/envs/rfdiffusion2/bin/python",
+    "/opt/bioinfra/repos/RFdiffusion2/rf_diffusion/benchmark/pipeline.py",
+    "--config-name=open_source_demo",
+    "sweep.benchmarks=active_site_unindexed_atomic_partial_ligand",
+    "outdir=${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/rfdiffusion2",
+    "sweep.retries=0"
+  ],
+  "cwd": "${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023",
+  "started": "2026-10-23T17:56:34.486925+08:00",
+  "returncode": 0,
+  "success": true,
+  "elapsed_seconds": 567.1310445439999
+}

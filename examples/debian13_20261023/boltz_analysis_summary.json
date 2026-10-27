@@ -1,0 +1,58 @@
+{
+  "structure_samples": 5,
+  "structure_rows": [
+    {
+      "model": "human_mdm2_p53_no_msa_model_0",
+      "confidence_score": 0.9685395359992981,
+      "iptm": 0.9560325741767883,
+      "ptm": 0.9728134274482727,
+      "mdm2_ca_rmsd_A": 0.5486739965409427,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 2.0523204803466797
+    },
+    {
+      "model": "human_mdm2_p53_no_msa_model_1",
+      "confidence_score": 0.9669294357299805,
+      "iptm": 0.9478250741958618,
+      "ptm": 0.9685308337211609,
+      "mdm2_ca_rmsd_A": 0.5417939452162498,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 2.4296886920928955
+    },
+    {
+      "model": "human_mdm2_p53_no_msa_model_2",
+      "confidence_score": 0.9664694666862488,
+      "iptm": 0.9390550255775452,
+      "ptm": 0.9625219106674194,
+      "mdm2_ca_rmsd_A": 0.5229073209997873,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 1.8866782188415527
+    },
+    {
+      "model": "human_mdm2_p53_no_msa_model_3",
+      "confidence_score": 0.9664247632026672,
+      "iptm": 0.9437334537506104,
+      "ptm": 0.965789258480072,
+      "mdm2_ca_rmsd_A": 0.5919648360096575,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 1.787392497062683
+    },
+    {
+      "model": "human_mdm2_p53_no_msa_model_4",
+      "confidence_score": 0.9654582142829895,
+      "iptm": 0.9345278739929199,
+      "ptm": 0.9601284861564636,
+      "mdm2_ca_rmsd_A": 0.5523001837098093,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 1.8587474822998047
+    }
+  ],
+  "affinity": [
+    {
+      "source": "${REPOSITORY_ROOT}/results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/affinity_official_affinity.json",
+      "input_msa": "server",
+      "predicted_log10_IC50_uM": 2.237119674682617,
+      "predicted_IC50_uM": 172.63135313783826,
+      "predicted_IC50_nM": 172631.35313783825,
+      "binding_probability": 0.3534216582775116,
+      "experimental_validation": false
+    }
+  ],
+  "experimental_validation": false,
+  "structure_reference_used_only_after_prediction": true
+}

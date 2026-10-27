@@ -1,0 +1,21 @@
+{
+  "analysis_python": "python3",
+  "haddock3": "haddock3",
+  "gmx": "gmx",
+  "gnina": "gnina",
+  "pyrosetta_python": "python3",
+  "af3_python": "python3",
+  "af3_repo": "",
+  "af3_params": "",
+  "boltz_python": "python3",
+  "boltzgen": "boltzgen",
+  "rfd_python": "python3",
+  "rfd_repo": "",
+  "ligand_python": "python3",
+  "chai_python": "python3",
+  "chai_predict": "",
+  "rfantibody_repo": "",
+  "rfantibody_python": "python3",
+  "rfantibody_bin": "",
+  "extra_env": {}
+}

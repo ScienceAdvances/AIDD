@@ -1,0 +1,9 @@
+run,stage,models,top_score,top_score_dockq,best_dockq,best_dockq_score_rank,dockq_rounding_error,table
+smoke,02_caprieval,12,-44.492,0.474,0.474,1,0.0004899833171569667,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/02_caprieval/capri_ss.tsv
+smoke,04_caprieval,12,-172.64,0.566,0.566,1,0.0006531407650387788,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/04_caprieval/capri_ss.tsv
+smoke,06_caprieval,12,-102.346,0.569,0.569,1,0.0003742981916612098,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/06_caprieval/capri_ss.tsv
+smoke,13_caprieval,4,-40.72,0.051,0.055,4,0.0003679313120798222,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/13_caprieval/capri_ss.tsv
+full,02_caprieval,999,-46.439,0.483,0.483,1,0.0006628305405257454,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/02_caprieval/capri_ss.tsv
+full,04_caprieval,999,-176.255,0.09,0.566,2,0.0006665550910658624,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/04_caprieval/capri_ss.tsv
+full,06_caprieval,999,-102.346,0.569,0.569,1,0.0006618777235925521,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/06_caprieval/capri_ss.tsv
+full,13_caprieval,32,-102.346,0.569,0.569,1,0.0004952931260798349,${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/13_caprieval/capri_ss.tsv

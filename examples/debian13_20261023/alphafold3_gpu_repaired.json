@@ -1,0 +1,19 @@
+{
+  "name": "alphafold3_gpu_repaired",
+  "command": [
+    "/opt/micromamba/envs/alphafold3/bin/python",
+    "/opt/bioinfra/repos/alphafold3/run_alphafold.py",
+    "--json_path=${REPOSITORY_ROOT}/workflows/modern_tools/alphafold3/human_mdm2_p53_no_msa.json",
+    "--model_dir=/opt/bioinfra/af3/params",
+    "--output_dir=${REPOSITORY_ROOT}/results/debian13_20261023/alphafold3_gpu_repaired",
+    "--run_data_pipeline=false",
+    "--flash_attention_implementation=xla",
+    "--buckets=128",
+    "--num_diffusion_samples=5"
+  ],
+  "cwd": "${REPOSITORY_ROOT}",
+  "started": "2026-10-23T18:06:06.434115+08:00",
+  "returncode": 0,
+  "success": true,
+  "elapsed_seconds": 140.47727045700003
+}

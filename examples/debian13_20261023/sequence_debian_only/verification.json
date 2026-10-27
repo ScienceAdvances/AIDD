@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-24",
+  "passed": true,
+  "candidate_count_and_complete_single_mutation_library": true,
+  "input_and_script_hashes_match": true,
+  "receptor_and_hotspots_unchanged": true,
+  "mask_has_expected_ten_positions": true,
+  "saved_nll_reproduces_scores": true,
+  "official_score_function_agrees": true,
+  "hard_rule_negative_controls_rejected": true,
+  "pareto_orientation_and_eligibility_checked": true,
+  "same_random_orders_confirmed_for_batch_comparison": true,
+  "batch_size_invariance_max_absolute_error": 7.152557373046875e-07,
+  "structural_or_experimental_validation": false
+}

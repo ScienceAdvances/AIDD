@@ -1,0 +1,77 @@
+{
+  "completed": true,
+  "upstream_commit": "8907e6671bfbfc92303b5f79c4b5e6ce47cdef57",
+  "device": "cuda",
+  "executed_at": "2026-10-23T17:44:34.359182+08:00",
+  "pdb": "1YCR",
+  "native_chain_B": "ETFSDLWKLLPEN",
+  "fixed_chain": "A",
+  "fixed_positions_B": [
+    3,
+    7,
+    10
+  ],
+  "mutable_positions": 10,
+  "model": "v_48_020",
+  "seed": 20261010,
+  "candidates": [
+    {
+      "candidate": "T0.1_sample1",
+      "sequence": "ETFEELWSKLPQT",
+      "temperature": 0.1,
+      "score": 1.2068,
+      "global_score": 1.4477,
+      "mutable_identity": 0.4,
+      "official_seq_recovery": 0.4
+    },
+    {
+      "candidate": "T0.1_sample2",
+      "sequence": "ETFEELWAKLPQS",
+      "temperature": 0.1,
+      "score": 1.0887,
+      "global_score": 1.4078,
+      "mutable_identity": 0.4,
+      "official_seq_recovery": 0.4
+    },
+    {
+      "candidate": "T0.3_sample1",
+      "sequence": "ETFEELWSKLPSS",
+      "temperature": 0.3,
+      "score": 1.1655,
+      "global_score": 1.446,
+      "mutable_identity": 0.4,
+      "official_seq_recovery": 0.4
+    },
+    {
+      "candidate": "T0.3_sample2",
+      "sequence": "ETFEELWAKLPKS",
+      "temperature": 0.3,
+      "score": 1.2239,
+      "global_score": 1.4363,
+      "mutable_identity": 0.4,
+      "official_seq_recovery": 0.4
+    },
+    {
+      "candidate": "T0.5_sample1",
+      "sequence": "ESFSSIWSKLPST",
+      "temperature": 0.5,
+      "score": 1.6291,
+      "global_score": 1.4914,
+      "mutable_identity": 0.3,
+      "official_seq_recovery": 0.3
+    },
+    {
+      "candidate": "T0.5_sample2",
+      "sequence": "ETFEQIWAKLPSR",
+      "temperature": 0.5,
+      "score": 1.4959,
+      "global_score": 1.4865,
+      "mutable_identity": 0.3,
+      "official_seq_recovery": 0.3
+    }
+  ],
+  "elapsed_seconds": 4.5814622269999745,
+  "torch_version": "2.6.0+cu126",
+  "checkpoint_sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+  "experimental_validation": false
+}

@@ -1,0 +1,14 @@
+{
+  "boltz2_conf.ckpt": {
+    "source": "https://huggingface.co/boltz-community/boltz-2/resolve/main/boltz2_conf.ckpt",
+    "sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1",
+    "bytes": 2286561469,
+    "verified": true
+  },
+  "boltz2_aff.ckpt": {
+    "source": "https://huggingface.co/boltz-community/boltz-2/resolve/main/boltz2_aff.ckpt",
+    "sha256": "dcc5cd3722b1c9eaa34267e4ae32f55cbbf1963f4c19319381ccfa30fdd2ca9e",
+    "bytes": 2062139170,
+    "verified": true
+  }
+}

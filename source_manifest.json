@@ -1,0 +1,53 @@
+{
+  "haddock": {
+    "url": "https://surfdrive.surf.nl/public.php/dav/files/3GE8k07b8EtuVK8",
+    "sha256": "c097e496fd55b93cd7e148fe4cf868e7ceae1a819fd911c3ae8a1338ad3b0d38",
+    "bytes": 241474807,
+    "retrieved_date": "2026-10-10",
+    "selection": "inputs, configurations, metrics, final models, logs, traceback",
+    "extracted_files": 174
+  },
+  "gromacs": {
+    "url": "https://gitlab.com/gromacs/online-tutorials/md-intro-tutorial/-/archive/main/md-intro-tutorial-main.zip",
+    "sha256": "cb5047ee8e6761bf75fe080e79e5d06798d6750d8b10c5a9b99c72eb071bc944",
+    "bytes": 36534966,
+    "retrieved_date": "2026-10-10",
+    "extracted_files": 44
+  },
+  "cart": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40303-z/MediaObjects/41467_2023_40303_MOESM6_ESM.zip",
+    "sha256": "54893106e4b0d75dfb2106b1080311afcdf30d16dc154268219f57f1cbf3ae9f",
+    "bytes": 95837,
+    "retrieved_date": "2026-10-10",
+    "extracted_files": 2
+  },
+  "cart_genes": {
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41467-023-40303-z/MediaObjects/41467_2023_40303_MOESM4_ESM.xlsx",
+    "sha256": "8c5b4ac5a7296f47a8b03a997cabd6eea06154ffadb52a5f09f5881c44650b76",
+    "bytes": 23683,
+    "retrieved_date": "2026-10-10",
+    "file": "data/cart/Supplementary_Data_1.xlsx"
+  },
+  "1ycr": {
+    "url": "https://files.rcsb.org/download/1YCR.pdb",
+    "sha256": "d8f23749da9ec22da2e17bb31c33803e3db6123233cd0404bdc005111196e7a3",
+    "bytes": 94041,
+    "retrieved_date": "2026-10-10",
+    "file": "data/peptide/1YCR_original.pdb"
+  },
+  "mouse_p53": {
+    "url": "https://rest.uniprot.org/uniprotkb/P02340.fasta",
+    "sha256": "2815fe67305f08a475a9043f6187a6904482f382a4e8b2740ab4905d9a600671",
+    "bytes": 488,
+    "retrieved_date": "2026-10-10",
+    "file": "data/peptide/P02340_mouse_p53.fasta"
+  },
+  "proteinmpnn": {
+    "url": "https://codeload.github.com/dauparas/ProteinMPNN/zip/8907e6671bfbfc92303b5f79c4b5e6ce47cdef57",
+    "sha256": "90c101fe0646c8d0567a1b5b12512bbdd5cb62b1b8fceddbd7eed75eacc3fe03",
+    "bytes": 88194230,
+    "retrieved_date": "2026-10-10",
+    "commit": "8907e6671bfbfc92303b5f79c4b5e6ce47cdef57",
+    "selection": "official code, helper scripts, MIT license, v_48_020 checkpoint"
+  }
+}

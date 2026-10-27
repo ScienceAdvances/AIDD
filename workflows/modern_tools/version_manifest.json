@@ -1,0 +1,120 @@
+{
+  "checked_date": "2026-10-20",
+  "versions": [
+    {
+      "tool": "RFdiffusion2",
+      "version": "main d365cbf4db3958814a9f8e4f6f94fa309dfebc2b",
+      "release": null,
+      "url": "https://github.com/RosettaCommons/RFdiffusion2",
+      "weight": "RFD_173.pt",
+      "completed": "official input atom validation; GPU design pending"
+    },
+    {
+      "tool": "RFantibody",
+      "version": "main 3e5a5bb1cb98befde9fc049ae3ff58cabb491f67",
+      "release": null,
+      "url": "https://github.com/RosettaCommons/RFantibody",
+      "completed": "official HA hotspots and HLT validation; GPU design pending"
+    },
+    {
+      "tool": "PyRosetta",
+      "version": "2026.29+releasequarterly.80a0635615",
+      "channel": "stable quarterly",
+      "url": "https://west.rosettacommons.org/pyrosetta/quarterly/release/",
+      "completed": "four variants repacked, minimized, interface analyzed"
+    },
+    {
+      "tool": "RDKit",
+      "version": "2026.09.1",
+      "pypi_version": "2026.9.1",
+      "url": "https://github.com/rdkit/rdkit/releases/tag/Release_2026_09_1",
+      "completed": "18 conformers; four peptides; identity checks"
+    },
+    {
+      "tool": "AlphaFold3",
+      "version": "v3.0.4 source archive",
+      "installed_metadata": "3.0.2 archive fallback",
+      "url": "https://github.com/google-deepmind/alphafold3/releases/tag/v3.0.4",
+      "archive_url": "https://codeload.github.com/google-deepmind/alphafold3/zip/refs/tags/v3.0.4",
+      "completed": "native CPU predictions: 1 recycle/1 sample and 10 recycles/5 samples; explicit empty MSA"
+    },
+    {
+      "tool": "Boltz",
+      "version": "2.2.1",
+      "model": "boltz2",
+      "url": "https://github.com/jwohlwend/boltz/releases/tag/v2.2.1",
+      "completed": "official YAML parser for two cases; CLI help; no new standalone model inference",
+      "compatibility_bridge": "AllChem.Descriptors = rdkit.Chem.Descriptors"
+    },
+    {
+      "tool": "BoltzGen",
+      "release": "v0.3.2",
+      "version": "main a07fea1153111ef453aaea7a15697ee05de9291f",
+      "url": "https://github.com/HannesStark/boltzgen",
+      "completed": "historical 10 VHH designs reanalyzed; ESMFold2 pending"
+    }
+  ],
+  "downloaded_source_hashes": [
+    {
+      "file": "rfdiffusion2/README.md",
+      "size": 12787,
+      "sha256": "cc8a7be244d0cc641a1aa18e29a6619f1aa055176d4a0fdd02d453dc746eac20"
+    },
+    {
+      "file": "rfantibody/README.md",
+      "size": 30816,
+      "sha256": "1a1bd53922d063af09148e01d7486bb6829f233bc8559e6112f681f6b970ed5a"
+    },
+    {
+      "file": "alphafold3/checked_docs/run_alphafold.py",
+      "size": 40771,
+      "sha256": "a1dc5033fdd5473de06a1dfa02bdf3f53120ea83294f880198bcb26e64c2d075"
+    },
+    {
+      "file": "alphafold3/checked_docs/pyproject.toml",
+      "size": 1557,
+      "sha256": "84b0897942270517f52798c69dd0128ab90bfb762663ee531f06a9e3aa196c02"
+    },
+    {
+      "file": "alphafold3/v3.0.4.zip",
+      "size": 6086929,
+      "sha256": "0488a11e8da73939f7657ad760e5f699fcaa58703444eb28517b3f0eb0b6fc4f"
+    },
+    {
+      "file": "boltz/checked_docs/docs/prediction.md",
+      "size": 28073,
+      "sha256": "b1c0296954ce2e4f2a7a8c64f02c910c9211f205fab83059ac092d8231dfba24"
+    },
+    {
+      "file": "boltzgen/README.md",
+      "size": 34450,
+      "sha256": "7c9191e2836cdbe8a96ab8fe4a672abd31e65e8aa55ada5fc144a085d24e3786"
+    },
+    {
+      "file": "boltzgen/README_v032.md",
+      "size": 32984,
+      "sha256": "3bc2809652c2f1dea82c5dce5560658d9517ec805edfc928082e9c94e08c1968"
+    },
+    {
+      "file": "pyrosetta_index.html",
+      "size": 7033,
+      "sha256": "d338165939245729564dddb39c074be80a2011029bf7229f72ec16b9e6a8e726"
+    }
+  ],
+  "model_files": [
+    {
+      "file": ".cache-models/alphafold3/af3.bin.zst",
+      "bytes": 1020545840,
+      "sha256": "74d0258616917cd122f5eab6d076afe4a8930e96823851e65e4f777dfb1f33ff",
+      "source_url": "https://storage.googleapis.com/alphafold3/af3.bin.zst"
+    },
+    {
+      "file": ".cache-models/alphafold3/af3.bin",
+      "bytes": 1146811260,
+      "sha256": "df8bbf2621f17dd3ee21c2a921e84a50bc2b80cdc0c7971cb915c2826fee1f9b",
+      "source_url": "https://storage.googleapis.com/alphafold3/af3.bin.zst"
+    }
+  ],
+  "source_manifest_legacy_unchanged": true,
+  "newly_created_inputs_manifest": "workflows/modern_tools/input_manifest.json"
+}

@@ -1,0 +1,76 @@
+{
+  "completed": true,
+  "reference": "human 1YCR",
+  "reference_coordinates_used_as_prediction_input": false,
+  "msa": "explicitly empty",
+  "samples": 5,
+  "best_by_af3_ranking": {
+    "sample": "seed-20261020_sample-3",
+    "ptm": 0.5,
+    "iptm": 0.17,
+    "ranking_score": 0.30390932343594895,
+    "has_clash": 0.0,
+    "mdm2_ca_rmsd_A": 6.89659245159244,
+    "p53_ca_rmsd_after_mdm2_alignment_A": 20.80109405517578,
+    "mdm2_atom_mean_plddt": 65.99310198300284,
+    "p53_atom_mean_plddt": 46.40389380530973
+  },
+  "metric": "p53 CA RMSD after least-squares alignment on 85 MDM2 CA atoms",
+  "rows": [
+    {
+      "sample": "seed-20261020_sample-0",
+      "ptm": 0.5,
+      "iptm": 0.14,
+      "ranking_score": 0.27693640451656726,
+      "has_clash": 0.0,
+      "mdm2_ca_rmsd_A": 6.856266192037865,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 21.651607513427734,
+      "mdm2_atom_mean_plddt": 66.79410764872522,
+      "p53_atom_mean_plddt": 43.728584070796465
+    },
+    {
+      "sample": "seed-20261020_sample-1",
+      "ptm": 0.49,
+      "iptm": 0.17,
+      "ranking_score": 0.3007084010278728,
+      "has_clash": 0.0,
+      "mdm2_ca_rmsd_A": 8.3516772843377,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 23.95520782470703,
+      "mdm2_atom_mean_plddt": 65.17161473087819,
+      "p53_atom_mean_plddt": 47.32150442477876
+    },
+    {
+      "sample": "seed-20261020_sample-2",
+      "ptm": 0.49,
+      "iptm": 0.16,
+      "ranking_score": 0.2898174334241745,
+      "has_clash": 0.0,
+      "mdm2_ca_rmsd_A": 5.95540406994354,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 22.52275276184082,
+      "mdm2_atom_mean_plddt": 65.71189801699718,
+      "p53_atom_mean_plddt": 43.692212389380536
+    },
+    {
+      "sample": "seed-20261020_sample-3",
+      "ptm": 0.5,
+      "iptm": 0.17,
+      "ranking_score": 0.30390932343594895,
+      "has_clash": 0.0,
+      "mdm2_ca_rmsd_A": 6.89659245159244,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 20.80109405517578,
+      "mdm2_atom_mean_plddt": 65.99310198300284,
+      "p53_atom_mean_plddt": 46.40389380530973
+    },
+    {
+      "sample": "seed-20261020_sample-4",
+      "ptm": 0.5,
+      "iptm": 0.16,
+      "ranking_score": 0.2958548905496234,
+      "has_clash": 0.0,
+      "mdm2_ca_rmsd_A": 6.70251376855042,
+      "p53_ca_rmsd_after_mdm2_alignment_A": 20.811120986938477,
+      "mdm2_atom_mean_plddt": 67.07150141643059,
+      "p53_atom_mean_plddt": 45.27646017699115
+    }
+  ]
+}

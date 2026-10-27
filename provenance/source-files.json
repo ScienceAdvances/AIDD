@@ -1,0 +1,1425 @@
+{
+  "note": "Source hashes precede portability edits. Current hashes are in SHA256SUMS. Examples are Debian results, not new experimental measurements.",
+  "files": [
+    {
+      "file": "data/peptide/1YCR_original.pdb",
+      "origin": "data/peptide/1YCR_original.pdb",
+      "sha256_original": "d8f23749da9ec22da2e17bb31c33803e3db6123233cd0404bdc005111196e7a3"
+    },
+    {
+      "file": "data/peptide/P02340_mouse_p53.fasta",
+      "origin": "data/peptide/P02340_mouse_p53.fasta",
+      "sha256_original": "2815fe67305f08a475a9043f6187a6904482f382a4e8b2740ab4905d9a600671"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/pdbs/1YCR.pdb",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/pdbs/1YCR.pdb",
+      "sha256_original": "d6121470d65083a549c975fba118b0ab0010a4cda31f0635be7a1f8f2eeea9da"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/pdbs/AF_MDM2_26_109.pdb",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/pdbs/AF_MDM2_26_109.pdb",
+      "sha256_original": "b5b0ce28be517310f6193148a2b1639eb139c0c1587ac2cbe7235d6363041499"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/pdbs/peptide_ens.pdb",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/pdbs/peptide_ens.pdb",
+      "sha256_original": "c369a431e462a81e8a692489094553a9abc10894cddf9cb9b5c2789d40c1092e"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/restraints/peptide-ens-passive.act-pass",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/restraints/peptide-ens-passive.act-pass",
+      "sha256_original": "549a3bc94e3471c6aca45de24de30ad5b07fdaab723717e7233e9ccaecd16fb4"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/restraints/protein-AR3D-active.act-pass",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/restraints/protein-AR3D-active.act-pass",
+      "sha256_original": "1c293636bb8e4a9e200c6cb5b10f26feb38aa15ad751fae720e0f2ae6683fc0b"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/restraints/protein-peptide_ambig.tbl",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/restraints/protein-peptide_ambig.tbl",
+      "sha256_original": "3916396c0009fdb8e783d1995c1a261710ce235005c16c573b94fb3bb2584273"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/workflows/protein_peptide_docking.cfg",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/workflows/protein_peptide_docking.cfg",
+      "sha256_original": "75d7cf6939d24caf84733f0f96513314c525d56888c8956b2164d1ddad3d402f"
+    },
+    {
+      "file": "data/peptide/HADDOCK3-protein-peptide/workflows/protein_peptide_docking_best_practices.cfg",
+      "origin": "data/peptide/HADDOCK3-protein-peptide/workflows/protein_peptide_docking_best_practices.cfg",
+      "sha256_original": "b398002005cd93b5a51ec2991351b2c3e4a348929436039769e3bf4d14eb08f1"
+    },
+    {
+      "file": "data/cart/Source data - Main figures.xlsx",
+      "origin": "data/cart/Source data - Main figures.xlsx",
+      "sha256_original": "7e174217b7d748846bfcf3469f3b5c93596e9b88928cf64d952e4e6f4d506916"
+    },
+    {
+      "file": "data/cart/Source data - Supplementary figures.xlsx",
+      "origin": "data/cart/Source data - Supplementary figures.xlsx",
+      "sha256_original": "4b6422476b7617cd58fc40b48fac977a8879fdcf2e0a06b8232a6738a45d9e8b"
+    },
+    {
+      "file": "data/cart/Supplementary_Data_1.xlsx",
+      "origin": "data/cart/Supplementary_Data_1.xlsx",
+      "sha256_original": "8c5b4ac5a7296f47a8b03a997cabd6eea06154ffadb52a5f09f5881c44650b76"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/1fjs.pdb",
+      "origin": "data/md/md-intro-tutorial-main/data/input/1fjs.pdb",
+      "sha256_original": "2e9b2c96d67394f76977aec339913d755f7919f7f73eb6125c0bfe2be8b34049"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/emin-amber.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/emin-amber.mdp",
+      "sha256_original": "f05ba1e114086e8a0967ec81480f05bb1f758d64d5eb77bdd5199a0349f4edb3"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/emin-charmm.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/emin-charmm.mdp",
+      "sha256_original": "c0cd08a98b090151644e136a1494b0a6cd0351dd637dfe53baee71b1faef92b7"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/md-amber.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/md-amber.mdp",
+      "sha256_original": "6cf495d6595e1e0f40fa4c21a27020bc965d213bff51866f51ce74b194a92513"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/md-charmm.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/md-charmm.mdp",
+      "sha256_original": "4769727b56469a52d59be3d89d3adf35520bbd491aa777c2c12145a358a0e79d"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/md-mass-charmm.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/md-mass-charmm.mdp",
+      "sha256_original": "1c3b4a309698526064ca1faa0deded81679c44c69b039c4f5490f42c6cc9cc30"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/md-mts-charmm.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/md-mts-charmm.mdp",
+      "sha256_original": "f59d7f519b34d65376baa55aad70dc653af2e4cc5cb0d909b7b8fb40a4f469cb"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/npt-amber.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/npt-amber.mdp",
+      "sha256_original": "8ad26b60d46cafeb79182163da3812965774230716601b334777fb97b4af25c9"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/npt-charmm.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/npt-charmm.mdp",
+      "sha256_original": "1835fbe84bd47845d676fe8bacf0032656ce2fcf19835c031a95197e103acd34"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/nvt-amber.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/nvt-amber.mdp",
+      "sha256_original": "3eaaa52e62893d0357625a7a9ccef4e37679f327cfdf3865ccdf7a8ad512bff7"
+    },
+    {
+      "file": "data/md/md-intro-tutorial-main/data/input/nvt-charmm.mdp",
+      "origin": "data/md/md-intro-tutorial-main/data/input/nvt-charmm.mdp",
+      "sha256_original": "2b908714eb0aee61ada29f70dbd29c5167e3841e425e20f416718ff2858be371"
+    },
+    {
+      "file": "third_party/licenses/GROMACS-tutorial-CC-BY-4.0.txt",
+      "origin": "data/md/md-intro-tutorial-main/LICENSE",
+      "sha256_original": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    {
+      "file": "third_party/licenses/RFantibody-MIT.txt",
+      "origin": "website/LICENSE",
+      "sha256_original": "82058ed9e887497cee68ef2e064926a6ad248b24adc71c58c75e732aeb6b37cc"
+    },
+    {
+      "file": "third_party/licenses/RFdiffusion2-BSD.txt",
+      "origin": "website/LICENSE.md",
+      "sha256_original": "34ab4f089ed0332b059b3783839e997d44adbe0cdbab9b0ebd142feff75d64eb"
+    },
+    {
+      "file": "third_party/licenses/ProteinMPNN-MIT.txt",
+      "origin": "data/aidd/ProteinMPNN/LICENSE",
+      "sha256_original": "82009d25ce585631f452b2b24589bdb29c559ccfefa2f200ef312ed5b501a586"
+    },
+    {
+      "file": "data/aidd/ProteinMPNN/LICENSE",
+      "origin": "data/aidd/ProteinMPNN/LICENSE",
+      "sha256_original": "82009d25ce585631f452b2b24589bdb29c559ccfefa2f200ef312ed5b501a586"
+    },
+    {
+      "file": "data/aidd/ProteinMPNN/helper_scripts/assign_fixed_chains.py",
+      "origin": "data/aidd/ProteinMPNN/helper_scripts/assign_fixed_chains.py",
+      "sha256_original": "3402950dae8e65fa1800f1211ead9db9ede56aa0d599c186994262a30fc1ba81"
+    },
+    {
+      "file": "data/aidd/ProteinMPNN/helper_scripts/make_fixed_positions_dict.py",
+      "origin": "data/aidd/ProteinMPNN/helper_scripts/make_fixed_positions_dict.py",
+      "sha256_original": "31b7cea547cda162ed1ddb0e341906b6e84e0ca4061dae5c6dddeca3eb6053ef"
+    },
+    {
+      "file": "data/aidd/ProteinMPNN/helper_scripts/parse_multiple_chains.py",
+      "origin": "data/aidd/ProteinMPNN/helper_scripts/parse_multiple_chains.py",
+      "sha256_original": "3d68c7fcc37c0763c42bfaf6099b4b2f5dd30710f9870b6b38d7a9e1ac18b790"
+    },
+    {
+      "file": "data/aidd/ProteinMPNN/protein_mpnn_run.py",
+      "origin": "data/aidd/ProteinMPNN/protein_mpnn_run.py",
+      "sha256_original": "61f2c519a7f73fa12da9eb90da97b97ec2f8d5f31d42605639c7600cbd321cbe"
+    },
+    {
+      "file": "data/aidd/ProteinMPNN/protein_mpnn_utils.py",
+      "origin": "data/aidd/ProteinMPNN/protein_mpnn_utils.py",
+      "sha256_original": "74c8f9b7553422a7a0bbd705874844ee103c8926c2c96f154a87e0b824071e1b"
+    },
+    {
+      "file": "workflows/modern_tools/alphafold3/human_mdm2_p53_no_msa.json",
+      "origin": "workflows/modern_tools/alphafold3/human_mdm2_p53_no_msa.json",
+      "sha256_original": "206db3ad525a95886a490cefeb53b3c46f9993abcaf916d58b6f60a980ba7f4f"
+    },
+    {
+      "file": "workflows/modern_tools/boltz/human_mdm2_p53_no_msa.yaml",
+      "origin": "workflows/modern_tools/boltz/human_mdm2_p53_no_msa.yaml",
+      "sha256_original": "357e1863e2c7284b2137830c0d5912f5f66fe4f8b71813d2948ef8de90fc4266"
+    },
+    {
+      "file": "workflows/modern_tools/boltz/official_affinity.yaml",
+      "origin": "workflows/modern_tools/boltz/official_affinity.yaml",
+      "sha256_original": "631bb444e0deea02db042cf2f766711d17a9372603d01694fbea804a12f7227e"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/7xl0.cif",
+      "origin": "workflows/modern_tools/boltzgen/7xl0.cif",
+      "sha256_original": "0042fd3761f1aee883db62f72f86b8a5fca75198d9e2f265be197b7d44320c34"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/7xl0_official.yaml",
+      "origin": "workflows/modern_tools/boltzgen/7xl0_official.yaml",
+      "sha256_original": "15dba3e9eaf55b6e5a24cc0b52ee58abe26d7357ba5419eb0fe998bf5eefe7f0"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/7xl0_resolved.yaml",
+      "origin": "workflows/modern_tools/boltzgen/7xl0_resolved.yaml",
+      "sha256_original": "dfb8547e783595eb8a86d9645913449fc3f641efbd9db4cf31e51ef74d4c10ee"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/9bkq-assembly2.cif",
+      "origin": "workflows/modern_tools/boltzgen/9bkq-assembly2.cif",
+      "sha256_original": "60c5a196df584eda83a7cb6f13d010f128c53b299cb6c98088989cff730dbf67"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/penguinpox.yaml",
+      "origin": "workflows/modern_tools/boltzgen/penguinpox.yaml",
+      "sha256_original": "52c575a2dd250b373482361a736760f785b812f97e7e10cd86bd9c3e17180d4f"
+    },
+    {
+      "file": "workflows/modern_tools/input_manifest.json",
+      "origin": "workflows/modern_tools/input_manifest.json",
+      "sha256_original": "40024dd2ba274e7ace438b777a48f08967bf1c66c752053ba5cfd2366273a7b2"
+    },
+    {
+      "file": "workflows/modern_tools/rfantibody/flu_HA.pdb",
+      "origin": "workflows/modern_tools/rfantibody/flu_HA.pdb",
+      "sha256_original": "8fe788df3d66563f801e347f50081a138bd55f3979ac4f6e5ceca12362216ba9"
+    },
+    {
+      "file": "workflows/modern_tools/rfantibody/h-NbBCII10.pdb",
+      "origin": "workflows/modern_tools/rfantibody/h-NbBCII10.pdb",
+      "sha256_original": "ab444bb19d8391b1b75decd0026e0d9f09affff5a702a6180edc990bbda3095e"
+    },
+    {
+      "file": "workflows/modern_tools/rfdiffusion2/M0584_1ldm.pdb",
+      "origin": "workflows/modern_tools/rfdiffusion2/M0584_1ldm.pdb",
+      "sha256_original": "b23a9937bc919e993c5fc390f93ccd960d8a34a8d8e198680812c6d228dbab0e"
+    },
+    {
+      "file": "workflows/modern_tools/rfdiffusion2/open_source_demo.json",
+      "origin": "workflows/modern_tools/rfdiffusion2/open_source_demo.json",
+      "sha256_original": "d1acfd0368ab499970cedf4d85cc779a43da4a2df9818097a92e02523ec2f04e"
+    },
+    {
+      "file": "workflows/modern_tools/version_manifest.json",
+      "origin": "workflows/modern_tools/version_manifest.json",
+      "sha256_original": "db03e93b5ac3ef498114c9776adac2a24d2f752f1ec93c271d087b9d08bc7aa4"
+    },
+    {
+      "file": "workflows/gnina/example_1iep/input_manifest.json",
+      "origin": "workflows/gnina/example_1iep/input_manifest.json",
+      "sha256_original": "b60d3488b6a3b3830074a1c123e37c02e6b03024684da9efbf2d3a2b55895b7e"
+    },
+    {
+      "file": "workflows/gnina/example_1iep/ligand_input.sdf",
+      "origin": "workflows/gnina/example_1iep/ligand_input.sdf",
+      "sha256_original": "fe1e38140ac3ad10bcaf7c1bc58bfc02a6cb79290b4bf9e8839f5a9f0fcecec5"
+    },
+    {
+      "file": "workflows/gnina/example_1iep/receptor.pdb",
+      "origin": "workflows/gnina/example_1iep/receptor.pdb",
+      "sha256_original": "5f6aee6029f9a2a2c2be32d4eb948ae70808690573e1b69a0850cdffd7048ca7"
+    },
+    {
+      "file": "workflows/gnina/example_1iep/reference.sdf",
+      "origin": "workflows/gnina/example_1iep/reference.sdf",
+      "sha256_original": "051b8742c32adc05c07fb486a4e7c9327f84e131cee33ac4e6a568d07553eb38"
+    },
+    {
+      "file": "workflows/gnina/gnina_workflow.py",
+      "origin": "workflows/gnina/gnina_workflow.py",
+      "sha256_original": "5be424b55075782d12b65f4895e5d7e9747b512558822ff1dfc3d0d451117a2d"
+    },
+    {
+      "file": "workflows/gnina/jobs_1iep.tsv",
+      "origin": "workflows/gnina/jobs_1iep.tsv",
+      "sha256_original": "5132def493b467d3622fcd61e6a2179b6dd7b8864e7299d02aed28af3056ea5e"
+    },
+    {
+      "file": "workflows/gnina/test_workflow.py",
+      "origin": "workflows/gnina/test_workflow.py",
+      "sha256_original": "0d0cfd3e498c28613d9ae2d143c1155a0c9fb1fbcedc5a76128e2827baea4677"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/pdbs/1YCR.pdb",
+      "origin": "workflows/haddock_debian13_20261023/pdbs/1YCR.pdb",
+      "sha256_original": "d6121470d65083a549c975fba118b0ab0010a4cda31f0635be7a1f8f2eeea9da"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/pdbs/AF_MDM2_26_109.pdb",
+      "origin": "workflows/haddock_debian13_20261023/pdbs/AF_MDM2_26_109.pdb",
+      "sha256_original": "b5b0ce28be517310f6193148a2b1639eb139c0c1587ac2cbe7235d6363041499"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/pdbs/peptide_ens.pdb",
+      "origin": "workflows/haddock_debian13_20261023/pdbs/peptide_ens.pdb",
+      "sha256_original": "c369a431e462a81e8a692489094553a9abc10894cddf9cb9b5c2789d40c1092e"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/restraints/peptide-ens-passive.act-pass",
+      "origin": "workflows/haddock_debian13_20261023/restraints/peptide-ens-passive.act-pass",
+      "sha256_original": "549a3bc94e3471c6aca45de24de30ad5b07fdaab723717e7233e9ccaecd16fb4"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/restraints/protein-AR3D-active.act-pass",
+      "origin": "workflows/haddock_debian13_20261023/restraints/protein-AR3D-active.act-pass",
+      "sha256_original": "1c293636bb8e4a9e200c6cb5b10f26feb38aa15ad751fae720e0f2ae6683fc0b"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/restraints/protein-peptide_ambig.tbl",
+      "origin": "workflows/haddock_debian13_20261023/restraints/protein-peptide_ambig.tbl",
+      "sha256_original": "3916396c0009fdb8e783d1995c1a261710ce235005c16c573b94fb3bb2584273"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/workflows/full.cfg",
+      "origin": "workflows/haddock_debian13_20261023/workflows/full.cfg",
+      "sha256_original": "407bb23ac1f7dd81b165c1db8b0a4596dc1c8cab44969656c5d7b2ae2264fc9a"
+    },
+    {
+      "file": "workflows/haddock_debian13_20261023/workflows/smoke.cfg",
+      "origin": "workflows/haddock_debian13_20261023/workflows/smoke.cfg",
+      "sha256_original": "eeb0a632e9bafc5cf1d8d64c0028ae81d96405c84ae2d6fa8a7358fb2ea776a8"
+    },
+    {
+      "file": "examples/debian13_20261023/cart/expression_and_background.png",
+      "origin": "results/debian13_20261023/cart/expression_and_background.png",
+      "sha256_original": "6bcecff61699d3247bf3449087ed6fd75cfe90258af8a32669ca15f8a264c005"
+    },
+    {
+      "file": "examples/debian13_20261023/cart/extraction_summary.json",
+      "origin": "results/debian13_20261023/cart/extraction_summary.json",
+      "sha256_original": "6b68575cf672e2ed697b7a82ace5e34ad6a33bc42cb5e2dfd0f89d5794168c14"
+    },
+    {
+      "file": "examples/debian13_20261023/cart/mutation_tradeoffs.png",
+      "origin": "results/debian13_20261023/cart/mutation_tradeoffs.png",
+      "sha256_original": "66324fc0f0d6df5501d7535785ecdd047cf09431da0b914a1d3c8d98049e8306"
+    },
+    {
+      "file": "examples/debian13_20261023/cart/panel_summary.csv",
+      "origin": "results/debian13_20261023/cart/panel_summary.csv",
+      "sha256_original": "aeb9b1b993c652822c05cc51a6235ecf855b8305ce4db20b78b86d16d2e768f0"
+    },
+    {
+      "file": "examples/debian13_20261023/cart/source_observations.csv",
+      "origin": "results/debian13_20261023/cart/source_observations.csv",
+      "sha256_original": "84afeb64705ca442218aed5112ee9db60635f4165bf49ee99ce62f2daad8a259"
+    },
+    {
+      "file": "examples/debian13_20261023/cart/target_background_comparison.png",
+      "origin": "results/debian13_20261023/cart/target_background_comparison.png",
+      "sha256_original": "e25da7b8cb8b7d62cd516f68e017219d43fac813e921ccd34fea37bb6c38f9e7"
+    },
+    {
+      "file": "examples/debian13_20261023/sequence_debian_only/candidates.csv",
+      "origin": "results/debian13_20261023/sequence_debian_only/candidates.csv",
+      "sha256_original": "f6f0cbd5bcc8da96c859c8cb0d9a85e3898652e99cb068ee17ce6b5da74ed730"
+    },
+    {
+      "file": "examples/debian13_20261023/sequence_debian_only/library.fasta",
+      "origin": "results/debian13_20261023/sequence_debian_only/library.fasta",
+      "sha256_original": "f989c6dfd3e3f631d0e8354641d707822ee6968fd3a27fea062a7c894b793a50"
+    },
+    {
+      "file": "examples/debian13_20261023/sequence_debian_only/run_summary.json",
+      "origin": "results/debian13_20261023/sequence_debian_only/run_summary.json",
+      "sha256_original": "31ad6c6b5dc1e0b3632b71395a0b398116b51ba9126bb8dd0039ef1ece4aee8a"
+    },
+    {
+      "file": "examples/debian13_20261023/sequence_debian_only/score_audit.npz",
+      "origin": "results/debian13_20261023/sequence_debian_only/score_audit.npz",
+      "sha256_original": "7c01da59704a3c124a0573817172dbad72710979311ec3b93ee6e851fb4939a2"
+    },
+    {
+      "file": "examples/debian13_20261023/sequence_debian_only/shortlist.csv",
+      "origin": "results/debian13_20261023/sequence_debian_only/shortlist.csv",
+      "sha256_original": "aba99b70ae087c94e1f929306bf72c14174ced3006fc759a02de181f62c4775a"
+    },
+    {
+      "file": "examples/debian13_20261023/sequence_debian_only/tradeoffs.png",
+      "origin": "results/debian13_20261023/sequence_debian_only/tradeoffs.png",
+      "sha256_original": "8bd623d4e9ff3ea76036c2986c1ca8cf32d4e9f4b7dec0f52e5d4f996719d669"
+    },
+    {
+      "file": "examples/debian13_20261023/sequence_debian_only/verification.json",
+      "origin": "results/debian13_20261023/sequence_debian_only/verification.json",
+      "sha256_original": "a3779230f51abe0bac1ed38978d9efb0105d1bddcec91f63909756f58ef829f9"
+    },
+    {
+      "file": "examples/debian13_20261023/haddock_analysis/full_final_models.csv",
+      "origin": "results/debian13_20261023/haddock_analysis/full_final_models.csv",
+      "sha256_original": "920e279229b7ad0ca9db2a2607df7595f50eeffde9cbc05b2e7e33f0d8043f0c"
+    },
+    {
+      "file": "examples/debian13_20261023/haddock_analysis/sampling_and_ranking.png",
+      "origin": "results/debian13_20261023/haddock_analysis/sampling_and_ranking.png",
+      "sha256_original": "7c6957a460e2750bebfc27236df045b361b7838ea30fb98256156fc17237a818"
+    },
+    {
+      "file": "examples/debian13_20261023/haddock_analysis/smoke_final_models.csv",
+      "origin": "results/debian13_20261023/haddock_analysis/smoke_final_models.csv",
+      "sha256_original": "db0abd7279e713c0897090cc4e3934835fe22098b1742d7f3bf9966a5dbf8996"
+    },
+    {
+      "file": "examples/debian13_20261023/haddock_analysis/stage_summary.csv",
+      "origin": "results/debian13_20261023/haddock_analysis/stage_summary.csv",
+      "sha256_original": "f2c5f47c7d1f985bdadccdc7330b5c72e01384c1784cb2c00aded765bc78ff7a"
+    },
+    {
+      "file": "examples/debian13_20261023/haddock_analysis/validation.json",
+      "origin": "results/debian13_20261023/haddock_analysis/validation.json",
+      "sha256_original": "9685b00a2383771fd38d3ad24334956bb84c68d5e55e3df3fa2e0ee98dd82716"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed11.sdf",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed11.sdf",
+      "sha256_original": "f1edcd4b51be77f318b6ac87565c640943545a173a8153d757cc4d9280af35c8"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed11_rmsd.csv",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed11_rmsd.csv",
+      "sha256_original": "bf2c27de4f22a31f831b99c702b389acbdd92ec2ffadb72b360fe6c22c7fdd74"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed23.sdf",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed23.sdf",
+      "sha256_original": "53c0f19343082cdac351750c47e1463db8bce45ccd94e6b2c3343fc2392e1239"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed23_rmsd.csv",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed23_rmsd.csv",
+      "sha256_original": "234ad581a7c298cd2616e66a994b5faafb0aa40a6cc8c79996611998230dad29"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed47.sdf",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed47.sdf",
+      "sha256_original": "9c1cf1fb797557d203e32997dac622189aea8b8fd458e5062878e142fe3bc8d3"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed47_rmsd.csv",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/abl_imatinib_seed47_rmsd.csv",
+      "sha256_original": "197053315c0f8ed1f139117ec830e0143767db7da850462818030155628e43c5"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/gnina_version.txt",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/gnina_version.txt",
+      "sha256_original": "27c18876fe44e934cbdc2f67072e1cec74da677c734be794be4525fb59046519"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/run_manifest.json",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/run_manifest.json",
+      "sha256_original": "f85306ceba9743d42490aaf6ee37a3192fa372bd61889b3ad133321dad6cf5c8"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_rescore_gpu/scores.csv",
+      "origin": "results/debian13_20261023/gnina_rescore_gpu/scores.csv",
+      "sha256_original": "75d8f125decc61a6906bc2a094e652b7736ca548e299a41a032bda1d4a94ca48"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/abl_imatinib_seed11.sdf",
+      "origin": "results/debian13_20261023/gnina_none_gpu/abl_imatinib_seed11.sdf",
+      "sha256_original": "2b07285025a44c24e83e4783f03d0270955d6453f230962524a3833a0c158e7b"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/abl_imatinib_seed11_rmsd.csv",
+      "origin": "results/debian13_20261023/gnina_none_gpu/abl_imatinib_seed11_rmsd.csv",
+      "sha256_original": "f7468537b1cf148a371a2dbbfb401cc5e94c15e41894a6924232cd568a6e7de3"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/abl_imatinib_seed23.sdf",
+      "origin": "results/debian13_20261023/gnina_none_gpu/abl_imatinib_seed23.sdf",
+      "sha256_original": "070e41b49137ad324833411d8df98fab5af6fead9fc307e7f3c7f7aa55585ef0"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/abl_imatinib_seed23_rmsd.csv",
+      "origin": "results/debian13_20261023/gnina_none_gpu/abl_imatinib_seed23_rmsd.csv",
+      "sha256_original": "f95ec022ee71da283a7cf4c63b7b9ae818eed85b2cc05c83e57093ac06c77d7e"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/abl_imatinib_seed47.sdf",
+      "origin": "results/debian13_20261023/gnina_none_gpu/abl_imatinib_seed47.sdf",
+      "sha256_original": "06fe3a1e05bf31942ee9aafe54ae3f9d835d080f1f979c9633c8bf2d1de677d9"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/abl_imatinib_seed47_rmsd.csv",
+      "origin": "results/debian13_20261023/gnina_none_gpu/abl_imatinib_seed47_rmsd.csv",
+      "sha256_original": "46b0268071b6dcf9767312f4c7a0e5510358051194387f78771f25c77a95a95d"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/gnina_version.txt",
+      "origin": "results/debian13_20261023/gnina_none_gpu/gnina_version.txt",
+      "sha256_original": "27c18876fe44e934cbdc2f67072e1cec74da677c734be794be4525fb59046519"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/run_manifest.json",
+      "origin": "results/debian13_20261023/gnina_none_gpu/run_manifest.json",
+      "sha256_original": "8f0355f08df4204dd81819eaa1010dccbadbec7df3b30aebb2738c8294aa8cec"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_none_gpu/scores.csv",
+      "origin": "results/debian13_20261023/gnina_none_gpu/scores.csv",
+      "sha256_original": "1c9dd7588a36b353ac267441f60604ebc4006ca15ea8b00c21644707fd6a56a1"
+    },
+    {
+      "file": "examples/debian13_20261023/rdkit/conformer_energies.csv",
+      "origin": "results/debian13_20261023/rdkit/conformer_energies.csv",
+      "sha256_original": "49c2779808061bc97c2f81de965827181de251fedca8946c2efd48d983bc4376"
+    },
+    {
+      "file": "examples/debian13_20261023/rdkit/imatinib_conformers.sdf",
+      "origin": "results/debian13_20261023/rdkit/imatinib_conformers.sdf",
+      "sha256_original": "c15f41ec6a71feea2e00f3a9bbce19473f2f9737780898d6072e0d03bba789a2"
+    },
+    {
+      "file": "examples/debian13_20261023/rdkit/peptide_properties.csv",
+      "origin": "results/debian13_20261023/rdkit/peptide_properties.csv",
+      "sha256_original": "2e7598b1a1e580e57ac2c024d8b53c709b1e167af6cd227216184dbd53828840"
+    },
+    {
+      "file": "examples/debian13_20261023/rdkit/run_summary.json",
+      "origin": "results/debian13_20261023/rdkit/run_summary.json",
+      "sha256_original": "88113778624c75d3b0c1fadfcc93f99ec22bce9ed2459e8af4368aa959ca1265"
+    },
+    {
+      "file": "examples/debian13_20261023/pyrosetta/1YCR_protein.pdb",
+      "origin": "results/debian13_20261023/pyrosetta/1YCR_protein.pdb",
+      "sha256_original": "1e5cc05e6f57c79482bdd7c0136d35e89e5fa76a4bacd3ca061fae42baa801cb"
+    },
+    {
+      "file": "examples/debian13_20261023/pyrosetta/D5E.pdb",
+      "origin": "results/debian13_20261023/pyrosetta/D5E.pdb",
+      "sha256_original": "709b6e13d30663c3ce032fe4bf9e40c65cc6ec357d7e7f92bf8ae8375cd099d1"
+    },
+    {
+      "file": "examples/debian13_20261023/pyrosetta/L9K.pdb",
+      "origin": "results/debian13_20261023/pyrosetta/L9K.pdb",
+      "sha256_original": "feaa03dfeeb0c8317afcda8dc4f8b5487156fb03f20cf4682db76943afe4f984"
+    },
+    {
+      "file": "examples/debian13_20261023/pyrosetta/S4E.pdb",
+      "origin": "results/debian13_20261023/pyrosetta/S4E.pdb",
+      "sha256_original": "ec183540bb97f82d2eb82a2df10b2fb7e38684748879f5903ea933e1107d9af5"
+    },
+    {
+      "file": "examples/debian13_20261023/pyrosetta/WT.pdb",
+      "origin": "results/debian13_20261023/pyrosetta/WT.pdb",
+      "sha256_original": "7412e765fe4154c58bcb19f2fd2efb74672b8aea5f27ff10a23d0eb2cd4d5540"
+    },
+    {
+      "file": "examples/debian13_20261023/pyrosetta/run_summary.json",
+      "origin": "results/debian13_20261023/pyrosetta/run_summary.json",
+      "sha256_original": "e2692ebe786d57b5883d7633a4c623844d8273e129780076635808afa7164f75"
+    },
+    {
+      "file": "examples/debian13_20261023/pyrosetta/scores.csv",
+      "origin": "results/debian13_20261023/pyrosetta/scores.csv",
+      "sha256_original": "2f5d2294f56cea96c4fc768f24476113ccf0a16047e246c7418cb6c9060d98e3"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_analysis/af3_pae_and_reference_comparison.png",
+      "origin": "results/debian13_20261023/alphafold3_analysis/af3_pae_and_reference_comparison.png",
+      "sha256_original": "ed7b3c274e0833bbbb6765fc0d2f925076092cbcd7f17d4640d68d09af728c70"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_analysis/analysis_summary.json",
+      "origin": "results/debian13_20261023/alphafold3_analysis/analysis_summary.json",
+      "sha256_original": "2d96dc7a70636c5593533691d3a65779b250a58cb6c57bf353f9da841534358c"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_analysis/sample_comparison.csv",
+      "origin": "results/debian13_20261023/alphafold3_analysis/sample_comparison.csv",
+      "sha256_original": "a922fea48b50537c4c921842506a82274513d517a8746351317582769ce1b4f3"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/TERMS_OF_USE.md",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/TERMS_OF_USE.md",
+      "sha256_original": "7ab1c4ef16a8fe88db3ccef813a5e28dec63b1e2d336876e5ae60b6d6b4686b8"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_confidences.json",
+      "sha256_original": "9b85c773395a9aa8fb78717f6babbc8707b1956943cf8728af585425ed6fe3a0"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_data.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_data.json",
+      "sha256_original": "c8e6de32b870ed963ab6fee59c2f483dc0e6d58facbb78e5543402fac686a88e"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_model.cif",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_model.cif",
+      "sha256_original": "a24453dbd504f0dd80a9b8ce2a644dff8980494caee4184838de05d62f21ff07"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_ranking_scores.csv",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_ranking_scores.csv",
+      "sha256_original": "f6d1063e32e3c45655c2c68985ef93f172840bcc99abe0756813df073a4e93b6"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_summary_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/human_mdm2_p53_workflow_summary_confidences.json",
+      "sha256_original": "3b2ee1f043a0df948465c367ed882c258a53f21cc2c41d76da7778bd7000175f"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-0/human_mdm2_p53_workflow_seed-20261020_sample-0_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-0/human_mdm2_p53_workflow_seed-20261020_sample-0_confidences.json",
+      "sha256_original": "f595f504101f585ced849e64c9a4bdb2af76af63be1dc91d27cbc891e55177ca"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-0/human_mdm2_p53_workflow_seed-20261020_sample-0_model.cif",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-0/human_mdm2_p53_workflow_seed-20261020_sample-0_model.cif",
+      "sha256_original": "794a7a7acfa5969938682ba96e29bbce1f038deec924b30c836fe4f6f2738d5a"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-0/human_mdm2_p53_workflow_seed-20261020_sample-0_summary_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-0/human_mdm2_p53_workflow_seed-20261020_sample-0_summary_confidences.json",
+      "sha256_original": "c88bee324085037fc14756e113fa41b5f8bb095737c63a97106978411fa6dc3b"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-1/human_mdm2_p53_workflow_seed-20261020_sample-1_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-1/human_mdm2_p53_workflow_seed-20261020_sample-1_confidences.json",
+      "sha256_original": "222a7039b93c405386e898becac8685563c049c4a6ab8a09ea917a33d2f5a068"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-1/human_mdm2_p53_workflow_seed-20261020_sample-1_model.cif",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-1/human_mdm2_p53_workflow_seed-20261020_sample-1_model.cif",
+      "sha256_original": "fa457d95a9ef7633f0c89bc53d7f51e54354d6fdfd579d9ed4e1d201ae2ec732"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-1/human_mdm2_p53_workflow_seed-20261020_sample-1_summary_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-1/human_mdm2_p53_workflow_seed-20261020_sample-1_summary_confidences.json",
+      "sha256_original": "02515cc3fe93d908fd9f5d360e0d25d678d463c240130d0e8476b993664685b0"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-2/human_mdm2_p53_workflow_seed-20261020_sample-2_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-2/human_mdm2_p53_workflow_seed-20261020_sample-2_confidences.json",
+      "sha256_original": "521b1ba1e98b5cc7e6e5463fb2fa7bb7aaa8829e1e1fd2b4853eac0a87d41898"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-2/human_mdm2_p53_workflow_seed-20261020_sample-2_model.cif",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-2/human_mdm2_p53_workflow_seed-20261020_sample-2_model.cif",
+      "sha256_original": "8dc4930c15f20968cff90733a90f10620b2d4b4df70529ab5804cf1f953f208b"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-2/human_mdm2_p53_workflow_seed-20261020_sample-2_summary_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-2/human_mdm2_p53_workflow_seed-20261020_sample-2_summary_confidences.json",
+      "sha256_original": "adbabe8a8540b4bf2c3a68ad1a267fc87f9c4dfaf0c344a2f4b2d57289bbbc7d"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-3/human_mdm2_p53_workflow_seed-20261020_sample-3_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-3/human_mdm2_p53_workflow_seed-20261020_sample-3_confidences.json",
+      "sha256_original": "9b85c773395a9aa8fb78717f6babbc8707b1956943cf8728af585425ed6fe3a0"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-3/human_mdm2_p53_workflow_seed-20261020_sample-3_model.cif",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-3/human_mdm2_p53_workflow_seed-20261020_sample-3_model.cif",
+      "sha256_original": "a24453dbd504f0dd80a9b8ce2a644dff8980494caee4184838de05d62f21ff07"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-3/human_mdm2_p53_workflow_seed-20261020_sample-3_summary_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-3/human_mdm2_p53_workflow_seed-20261020_sample-3_summary_confidences.json",
+      "sha256_original": "3b2ee1f043a0df948465c367ed882c258a53f21cc2c41d76da7778bd7000175f"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-4/human_mdm2_p53_workflow_seed-20261020_sample-4_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-4/human_mdm2_p53_workflow_seed-20261020_sample-4_confidences.json",
+      "sha256_original": "113dc19c2243bf5bc8b57d9fa4c9898964950d8f50b55bb0b9676c153b1d5c94"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-4/human_mdm2_p53_workflow_seed-20261020_sample-4_model.cif",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-4/human_mdm2_p53_workflow_seed-20261020_sample-4_model.cif",
+      "sha256_original": "1986e44321eadc6400da59c3e8c94167ff51107131c0b91b9879e090c3d972c9"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-4/human_mdm2_p53_workflow_seed-20261020_sample-4_summary_confidences.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired/human_mdm2_p53_workflow/seed-20261020_sample-4/human_mdm2_p53_workflow_seed-20261020_sample-4_summary_confidences.json",
+      "sha256_original": "ae8a7a58625ac43bb877506fc058375a1c66495b9c021ae36418d704fc910903"
+    },
+    {
+      "file": "examples/debian13_20261023/input_checks/input_checks.json",
+      "origin": "results/debian13_20261023/input_checks/input_checks.json",
+      "sha256_original": "1b40e25158f582a76bdf585d4939a88cebfdd2b7ded901b4c2c385d6e8b6fa04"
+    },
+    {
+      "file": "examples/debian13_20261023/integrated_debian_full/brief.md",
+      "origin": "results/debian13_20261023/integrated_debian_full/brief.md",
+      "sha256_original": "dc9b1dc991fac79bb33204dbf415ed937e13e142d1bf15d743ad63a143fd66c6"
+    },
+    {
+      "file": "examples/debian13_20261023/integrated_debian_full/build_summary.json",
+      "origin": "results/debian13_20261023/integrated_debian_full/build_summary.json",
+      "sha256_original": "4f2e4bd65166cdf36a4725c3f7b38b6f68da12f400db57204b08513953c1468a"
+    },
+    {
+      "file": "examples/debian13_20261023/integrated_debian_full/candidate_validation_plan.csv",
+      "origin": "results/debian13_20261023/integrated_debian_full/candidate_validation_plan.csv",
+      "sha256_original": "04db4d152104623eb5b1f8d598a9cfa76967f740567012827a69d03294e2e9c5"
+    },
+    {
+      "file": "examples/debian13_20261023/integrated_debian_full/evidence.csv",
+      "origin": "results/debian13_20261023/integrated_debian_full/evidence.csv",
+      "sha256_original": "52bad5879acf28ef74f40d96884bfd8a3ecdaf51403f89c24af50d2c41648d4f"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_0.json",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_0.json",
+      "sha256_original": "6a3a5ab31a29fa5b536b9504faa41cdb64ea7def539e5256d1acb271cf8ce674"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_1.json",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_1.json",
+      "sha256_original": "10fdf58677fcdf1bfd8fb2d3c382e2ecad2cd8a4c230254dc37c1b45ce8825ae"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_2.json",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_2.json",
+      "sha256_original": "6d3d2584ef603807f9d406ba2ab9261615524867ae3da8c08084f16d002dbfd1"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_3.json",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_3.json",
+      "sha256_original": "bb6f23616e9a02a7ff78a07d6bc45ee5294ad7d32706e17e149f9f3ffe809321"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_4.json",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/confidence_human_mdm2_p53_no_msa_model_4.json",
+      "sha256_original": "500e3dca9222be325a76862054b778149d2ffa1377b5dfc87259d93a7b2bc620"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_0.cif",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_0.cif",
+      "sha256_original": "404afe5f73ab70ad1035652f370c15e22daad4f523837795e101c6d380ba4a89"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_1.cif",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_1.cif",
+      "sha256_original": "a613118e4725094a030e6cecc2a188ed543f254e32b0980264907ef9d0229645"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_2.cif",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_2.cif",
+      "sha256_original": "2e1d7c9ac2f56eca451f9e96fbeaed1f32e53e2f1e8b7e898b10ff2fd4ede755"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_3.cif",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_3.cif",
+      "sha256_original": "04cda6a18c5533cad5cf7ee606aaadf2386ee08b2ad3ef1c046b05f9b414836f"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_4.cif",
+      "origin": "results/debian13_20261023/boltz_structure/boltz_results_human_mdm2_p53_no_msa/predictions/human_mdm2_p53_no_msa/human_mdm2_p53_no_msa_model_4.cif",
+      "sha256_original": "7fdb2f484f9d65b3f8fed33288ab934e05f430b2d3e5c3ce6ca9daad0298bf63"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/affinity_official_affinity.json",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/affinity_official_affinity.json",
+      "sha256_original": "b6d5427657a5b0ae6ffc6cc2f45b5a4820c771026250a29204e8dd38911a60b6"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_0.json",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_0.json",
+      "sha256_original": "714079baf90502780412d0bd4b396ce6d10f9aa553ff570408348881deb0084e"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_1.json",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_1.json",
+      "sha256_original": "c0e2159336ef36741fe14c1e403ae400f3c5e63d199836ba1f319501cc14a6cb"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_2.json",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_2.json",
+      "sha256_original": "76f3f7a64fdc646d0452a1c30a8ac9f0b52ca58ddac2f42f5bd07a640b3024b9"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_3.json",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_3.json",
+      "sha256_original": "3ea5a3e9e113bf6db202b446deca127dcc9991cb9ef358f2eacf1d7acec8c6a9"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_4.json",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/confidence_official_affinity_model_4.json",
+      "sha256_original": "9581af8bc9c349b013983f7e7d06ed7cb86919c1a8f0b46a3b74e2eb8b63d151"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_0.cif",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_0.cif",
+      "sha256_original": "9dfc9f56bd49ef98c00d9022944d52854f25923a2549ae95750b68bb7f516799"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_1.cif",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_1.cif",
+      "sha256_original": "0004c7fa95186d6d8d34dd396f4f83fc2f245558856f1b428cf4843136de73f6"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_2.cif",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_2.cif",
+      "sha256_original": "9bca6fa8930f91b06c847bb0a2cee885639fa588c97a12eabd31b66d85b5de9d"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_3.cif",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_3.cif",
+      "sha256_original": "b24794aac642994ed515ae58fdc0ece695ddb3a54b3be9323c9e15d86a93a82c"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_4.cif",
+      "origin": "results/debian13_20261023/boltz_affinity/boltz_results_official_affinity/predictions/official_affinity/official_affinity_model_4.cif",
+      "sha256_original": "fc52ea078f93d5476cdd59679833ab766067ad8d819eaa1af9e032ca2b691ce4"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/all_designs_metrics.csv",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/all_designs_metrics.csv",
+      "sha256_original": "5ea7fa3afca33fb9d517f666f3abbeab02f370e27b9d728c608e137f9bb5ed30"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/before_refolding/rank1_penguinpox_1.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/before_refolding/rank1_penguinpox_1.cif",
+      "sha256_original": "dd563feaa614bde07f4d18ff8b101119accd6ac9b1cb0525fabdb563ced3ded8"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/before_refolding/rank2_penguinpox_0.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/before_refolding/rank2_penguinpox_0.cif",
+      "sha256_original": "121d12f5b3c8378ff1c1fbd3371db17492c1a5340f2016bc88cc1664ef60768c"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/rank1_penguinpox_1.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/rank1_penguinpox_1.cif",
+      "sha256_original": "ede21448db65aa992bf591169c4825e4259883f7b5f7c541afcf8afbf815eab5"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/rank2_penguinpox_0.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_2_designs/rank2_penguinpox_0.cif",
+      "sha256_original": "fd595b04305a6248533d5904954c28e4fc2360e72bef939ad7adae26d87c1fe2"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_designs_metrics_2.csv",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/final_designs_metrics_2.csv",
+      "sha256_original": "ab2624a07b1d8eb8b4ae5dec42615c0d3426fa717e4ebbaaae528a592782adba"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank0_penguinpox_1.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank0_penguinpox_1.cif",
+      "sha256_original": "dd563feaa614bde07f4d18ff8b101119accd6ac9b1cb0525fabdb563ced3ded8"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank1_penguinpox_0.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank1_penguinpox_0.cif",
+      "sha256_original": "121d12f5b3c8378ff1c1fbd3371db17492c1a5340f2016bc88cc1664ef60768c"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/rank0_penguinpox_1.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/rank0_penguinpox_1.cif",
+      "sha256_original": "ede21448db65aa992bf591169c4825e4259883f7b5f7c541afcf8afbf815eab5"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/rank1_penguinpox_0.cif",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/intermediate_ranked_10_designs/rank1_penguinpox_0.cif",
+      "sha256_original": "fd595b04305a6248533d5904954c28e4fc2360e72bef939ad7adae26d87c1fe2"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_gpu/final_ranked_designs/results_overview.pdf",
+      "origin": "results/debian13_20261023/boltzgen_gpu/final_ranked_designs/results_overview.pdf",
+      "sha256_original": "edfb99119371ed36ded114d3dbfdc49b8be3b8dbdc7d85680a2fab25e9941b71"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_analysis_summary.json",
+      "origin": "results/debian13_20261023/boltzgen_analysis_summary.json",
+      "sha256_original": "52df70c5cbfee257be4c147710a43c3eb0bcca2d5b90461184b1fb0f68f80cfe"
+    },
+    {
+      "file": "examples/debian13_20261023/gnina_comparison.csv",
+      "origin": "results/debian13_20261023/gnina_comparison.csv",
+      "sha256_original": "e538ecb41eef15f787262dc85f40e9927a439d3bcdb17bd4345d51b998304abb"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_weight_hashes.json",
+      "origin": "results/debian13_20261023/boltzgen_weight_hashes.json",
+      "sha256_original": "85696619957a2d67372090a28e325f344dc71be821cc9f27f1baff0b5dffa741"
+    },
+    {
+      "file": "examples/debian13_20261023/rfdiffusion2_analysis_summary.json",
+      "origin": "results/debian13_20261023/rfdiffusion2_analysis_summary.json",
+      "sha256_original": "e9f749d189b4c2306246bf44ceeb2cb95fbd30905bf520f8968916c7b6fe3c3e"
+    },
+    {
+      "file": "examples/debian13_20261023/rfdiffusion2_confidence_and_ligand_geometry.png",
+      "origin": "results/debian13_20261023/rfdiffusion2_confidence_and_ligand_geometry.png",
+      "sha256_original": "c40018a13ae25110fee7857953d250e449129749ce830508766379ab74cb4cdc"
+    },
+    {
+      "file": "examples/debian13_20261023/ESMFold2_兼容性评估.md",
+      "origin": "results/debian13_20261023/ESMFold2_兼容性评估.md",
+      "sha256_original": "b73db0841ac707a4a8b39c51443c6ce9b27815fbf8fbeb5c2a26b8ae189ef807"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_analysis_summary.json",
+      "origin": "results/debian13_20261023/boltz_analysis_summary.json",
+      "sha256_original": "33aa4e1f9bd4f9d4558503c23093daffb41659df32fc89adfac4533dd65658a2"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_candidate_summary.csv",
+      "origin": "results/debian13_20261023/rfantibody_candidate_summary.csv",
+      "sha256_original": "c8ea54a725fbf68d2fe55cf2f0a896e3138cb46780ed17ab10115f90a3bc50f2"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_candidate_summary.csv",
+      "origin": "results/debian13_20261023/boltzgen_candidate_summary.csv",
+      "sha256_original": "7b7c744efcb9be32efbd9906ccb47f53b1b5041346570764f2e06de091624103"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_analysis_summary.json",
+      "origin": "results/debian13_20261023/rfantibody_analysis_summary.json",
+      "sha256_original": "9be35f52f16ee559db9f600f54cc07b90c0a322e5145091dcebadf7eb4a20033"
+    },
+    {
+      "file": "examples/debian13_20261023/boltz_structure_comparison.csv",
+      "origin": "results/debian13_20261023/boltz_structure_comparison.csv",
+      "sha256_original": "bea7f180d5ec2d017d81ca936d28ee410a3c727feb10b61c7a745cc67020fc24"
+    },
+    {
+      "file": "examples/debian13_20261023/rfdiffusion2_candidate_summary.csv",
+      "origin": "results/debian13_20261023/rfdiffusion2_candidate_summary.csv",
+      "sha256_original": "882f6136a26ab1a61e69904d3e7474d5fcda118081d891d03e7d7fbe24163241"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/analysis_summary.json",
+      "origin": "results/debian13_20261023/md_analysis/analysis_summary.json",
+      "sha256_original": "7010a43c2e71519767ebf2bcda33b15625d31bf1a3678c0e8a6c1359ed2a762e"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/rmsf_ca.xvg",
+      "origin": "results/debian13_20261023/md_analysis/local_run/rmsf_ca.xvg",
+      "sha256_original": "bc2133b8c574cdc72cc23103a7c9c4a375106e914fe726d1455b4e4b36c5bd2c"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/commands.json",
+      "origin": "results/debian13_20261023/md_analysis/local_run/commands.json",
+      "sha256_original": "84aae5c05d1911ec86d048cc0d3d56ae35fb47218454ab53f88e747eff27dc20"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/rmsd_ca_to_em.xvg",
+      "origin": "results/debian13_20261023/md_analysis/local_run/rmsd_ca_to_em.xvg",
+      "sha256_original": "1f6a2e43a2437e32dc71d7f7da2e576d46a74ffb16bebdd9c48a48e580924f6c"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/trajectory_analysis.png",
+      "origin": "results/debian13_20261023/md_analysis/local_run/trajectory_analysis.png",
+      "sha256_original": "f270fb06dab6a1c63252df73b8bd5bc8269ccbee607edd7a90c82f397e1fe38b"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/thermodynamics.xvg",
+      "origin": "results/debian13_20261023/md_analysis/local_run/thermodynamics.xvg",
+      "sha256_original": "9aac944723bc5bc7fad437f5a00b97ac3fca70776de76b649fa7cef017a40d16"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/thermodynamics.csv",
+      "origin": "results/debian13_20261023/md_analysis/local_run/thermodynamics.csv",
+      "sha256_original": "bdaaefcb276d28e052a3cdfe3a5c4bda319f49429e1ff73dac77c18b4662bf98"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/rmsd_ca_to_tpr_reference.xvg",
+      "origin": "results/debian13_20261023/md_analysis/local_run/rmsd_ca_to_tpr_reference.xvg",
+      "sha256_original": "f10d766cd6174af938e5601721006452f74c424678b63020905748d2922f363e"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/structural_metrics.csv",
+      "origin": "results/debian13_20261023/md_analysis/local_run/structural_metrics.csv",
+      "sha256_original": "fe03ac5e1e9bfd5fc8a7527453563590feaef8fe5b6e9cffc21663fc0f37578a"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/rmsf_ca.xvg",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/rmsf_ca.xvg",
+      "sha256_original": "a363c96f775c2c15f825268e5f57c6ad2426a67d1cc5b7b4cb6335b47cbb5e0d"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/commands.json",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/commands.json",
+      "sha256_original": "84aae5c05d1911ec86d048cc0d3d56ae35fb47218454ab53f88e747eff27dc20"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/rmsd_ca_to_em.xvg",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/rmsd_ca_to_em.xvg",
+      "sha256_original": "49801d217ca3107f60d33c0842f37939ae68e954730c514e31c0d228691ab0b1"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/trajectory_analysis.png",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/trajectory_analysis.png",
+      "sha256_original": "30960fce5688487bd78417b3c9cfc8450ab1a7dad270acf84bb27135563f5a9c"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/thermodynamics.xvg",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/thermodynamics.xvg",
+      "sha256_original": "9d1f22a3dfb22249244722d361b60408386499270d92872639433108f0d88d61"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/thermodynamics.csv",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/thermodynamics.csv",
+      "sha256_original": "314f80caddb27139b20d91912c04b510d2136f6cc822ba7783688c44196c670d"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/rmsd_ca_to_tpr_reference.xvg",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/rmsd_ca_to_tpr_reference.xvg",
+      "sha256_original": "a6acf28622fc60c69a7c355f139110167efc8cf1686bfac4b9bb70e2f04ae2a5"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/official_1ns/structural_metrics.csv",
+      "origin": "results/debian13_20261023/md_analysis/official_1ns/structural_metrics.csv",
+      "sha256_original": "3c8fd2e4f6e832919295f2dd18fbf5991e8c3f80d0f5dc102ed6d48010808242"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/protein_centered.xtc",
+      "origin": "results/debian13_20261023/md_analysis/local_run/protein_centered.xtc",
+      "sha256_original": "bd7e82fc1bf96363a68ef456c1c01a89d83cf86807df95a6227e0c284e4f642e"
+    },
+    {
+      "file": "examples/debian13_20261023/md_analysis/local_run/reference_protein.pdb",
+      "origin": "results/debian13_20261023/md_analysis/local_run/reference_protein.pdb",
+      "sha256_original": "27c75d23c9408debce87d12c8900ee1a1af921f0350cbaeec194e921841a2643"
+    },
+    {
+      "file": "examples/proteinmpnn/candidate_summary.csv",
+      "origin": "results/aidd/debian13_gpu_20261023/candidate_summary.csv",
+      "sha256_original": "28eb85fda919d2fff5e2a14cad4248e78d9744cb1397787c0e2b7504e4c1a6ba"
+    },
+    {
+      "file": "examples/proteinmpnn/chains.jsonl",
+      "origin": "results/aidd/debian13_gpu_20261023/chains.jsonl",
+      "sha256_original": "7eb811ac105b4c15d0a5e3f9ac0d6d38b8e4a586ca35ba5805294ea79de70dcc"
+    },
+    {
+      "file": "examples/proteinmpnn/commands.json",
+      "origin": "results/aidd/debian13_gpu_20261023/commands.json",
+      "sha256_original": "e5040cb64b1c8747716115f784f01027468f1d5f58d0f156b7875683d2839aec"
+    },
+    {
+      "file": "examples/proteinmpnn/designs/probs/1YCR.npz",
+      "origin": "results/aidd/debian13_gpu_20261023/designs/probs/1YCR.npz",
+      "sha256_original": "01881b0d1cb170a527456ee0917eb15e6db3b46c0aa3af78fa5626cac1e6cd0b"
+    },
+    {
+      "file": "examples/proteinmpnn/designs/scores/1YCR.npz",
+      "origin": "results/aidd/debian13_gpu_20261023/designs/scores/1YCR.npz",
+      "sha256_original": "8d3afd8de93750f215f9e148674bae2a07183e355d814a83d1ef13b25cf00a03"
+    },
+    {
+      "file": "examples/proteinmpnn/designs/seqs/1YCR.fa",
+      "origin": "results/aidd/debian13_gpu_20261023/designs/seqs/1YCR.fa",
+      "sha256_original": "f4e3b7ce8fdf0446fbd8b71cdb0292054a40e098d104171867e93619a07474e1"
+    },
+    {
+      "file": "examples/proteinmpnn/fixed_positions.jsonl",
+      "origin": "results/aidd/debian13_gpu_20261023/fixed_positions.jsonl",
+      "sha256_original": "f08e6eee5bc2e37eacebcb7154806843133e6164f842842536fca8ea9f08f201"
+    },
+    {
+      "file": "examples/proteinmpnn/numbering.csv",
+      "origin": "results/aidd/debian13_gpu_20261023/numbering.csv",
+      "sha256_original": "f5ed2792e99209d14c4295507c0e3cf18db1cb9bca46585b0cd0c6395c3c8330"
+    },
+    {
+      "file": "examples/proteinmpnn/parsed.jsonl",
+      "origin": "results/aidd/debian13_gpu_20261023/parsed.jsonl",
+      "sha256_original": "6154a7a3ef10639a13c6446a20658c6309bf5e2b59789ecfb3ce69f233f9b866"
+    },
+    {
+      "file": "examples/proteinmpnn/pdbs/1YCR.pdb",
+      "origin": "results/aidd/debian13_gpu_20261023/pdbs/1YCR.pdb",
+      "sha256_original": "d8f23749da9ec22da2e17bb31c33803e3db6123233cd0404bdc005111196e7a3"
+    },
+    {
+      "file": "examples/proteinmpnn/probability_audit.json",
+      "origin": "results/aidd/debian13_gpu_20261023/probability_audit.json",
+      "sha256_original": "d93e7e289f64b62b198ebc59440172e86fdf1ab16d6c1b667abc7cfb7bfefd4f"
+    },
+    {
+      "file": "examples/proteinmpnn/run_summary.json",
+      "origin": "results/aidd/debian13_gpu_20261023/run_summary.json",
+      "sha256_original": "6f87b3a4554fd1ddd13a517b4e8be89b32a404469e86022fd8462299e31f53c8"
+    },
+    {
+      "file": "examples/proteinmpnn/sequence_comparison.png",
+      "origin": "results/aidd/debian13_gpu_20261023/sequence_comparison.png",
+      "sha256_original": "3b975907d71e83b02d22cc190a8e08a31f917f016d123cde5681a66812bbccf3"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/1_rfdiffusion.qv",
+      "origin": "debian13_runtime_20261023/rfantibody/1_rfdiffusion.qv",
+      "sha256_original": "12e018b79603594c56cd069fd6aa100a0386801a111a1ab5e980233c8fd35783"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/2_proteinmpnn.qv",
+      "origin": "debian13_runtime_20261023/rfantibody/2_proteinmpnn.qv",
+      "sha256_original": "d871c43d2723f97cd5b04ef56edd76145e77b2d62f03f1eb3c28bb09de7e89c7"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/3_rf2.qv",
+      "origin": "debian13_runtime_20261023/rfantibody/3_rf2.qv",
+      "sha256_original": "4bc286cdf242683d02d826a549b0f71d8fdae1c1bcb9cb637cd3694ea22d8251"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/3_rf2.sc",
+      "origin": "debian13_runtime_20261023/rfantibody/3_rf2.sc",
+      "sha256_original": "a69b3000394a2b81d558cc8b1c98715ba681163a910f5fcccfab2a2e0bdc89cf"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/final_pdbs/samples_design_0_dldesign_0_best.pdb",
+      "origin": "debian13_runtime_20261023/rfantibody/final_pdbs/samples_design_0_dldesign_0_best.pdb",
+      "sha256_original": "3f76c502a0f01d7a86177d03abc9f62eba8c3acb04184153622b933d443a41f4"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/final_pdbs/samples_design_0_dldesign_1_best.pdb",
+      "origin": "debian13_runtime_20261023/rfantibody/final_pdbs/samples_design_0_dldesign_1_best.pdb",
+      "sha256_original": "1737afa7ec6aa1a6e01d3a634352097cdec6e2e85b1db84a4b8d8a73375aaa1e"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/final_pdbs/samples_design_1_dldesign_0_best.pdb",
+      "origin": "debian13_runtime_20261023/rfantibody/final_pdbs/samples_design_1_dldesign_0_best.pdb",
+      "sha256_original": "8b04f42d170655450e3c8a612c674647101c0d873eada941f8a641dbdda4b453"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_outputs/final_pdbs/samples_design_1_dldesign_1_best.pdb",
+      "origin": "debian13_runtime_20261023/rfantibody/final_pdbs/samples_design_1_dldesign_1_best.pdb",
+      "sha256_original": "d38b9fc6c600574b2a50989b4f8091dc18e5867b226f66f1e93d72d2503cfe7a"
+    },
+    {
+      "file": "examples/debian13_20261023/rfdiffusion2_outputs/compiled_metrics.csv",
+      "origin": "debian13_runtime_20261023/rfdiffusion2/compiled_metrics.csv",
+      "sha256_original": "ce1ce5af7e16a9e5431e493c117163d0370cd759b84ef4f1d2411f0b3fb2d108"
+    },
+    {
+      "file": "examples/debian13_20261023/rfdiffusion2_outputs/run_active_site_unindexed_atomic_partial_ligand_cond0_0-atomized-bb-False.pdb",
+      "origin": "debian13_runtime_20261023/rfdiffusion2/run_active_site_unindexed_atomic_partial_ligand_cond0_0-atomized-bb-False.pdb",
+      "sha256_original": "e5e380356c13da130f967c2ac38507a5078e45334d5401d1dd02b4efa9234186"
+    },
+    {
+      "file": "examples/haddock_stages/smoke/06_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/smoke/06_caprieval/capri_ss.tsv",
+      "sha256_original": "71b83ffe9cb7d956a5be979f3809abc73cb1d0bbbe1f77a43fadf860ee7b6f81"
+    },
+    {
+      "file": "examples/haddock_stages/smoke/11_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/smoke/11_caprieval/capri_ss.tsv",
+      "sha256_original": "4f1b3e574dcd9bf0d46ea78875568a4e2f08e1cfc53d12d4faffa0593bd3d4a8"
+    },
+    {
+      "file": "examples/haddock_stages/smoke/08_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/smoke/08_caprieval/capri_ss.tsv",
+      "sha256_original": "71b83ffe9cb7d956a5be979f3809abc73cb1d0bbbe1f77a43fadf860ee7b6f81"
+    },
+    {
+      "file": "examples/haddock_stages/smoke/04_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/smoke/04_caprieval/capri_ss.tsv",
+      "sha256_original": "89d851da4f06961ac7f61b0dc66ad287b2d631df163faccde3842b316f0409ed"
+    },
+    {
+      "file": "examples/haddock_stages/smoke/13_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/smoke/13_caprieval/capri_ss.tsv",
+      "sha256_original": "5f0c143b000315ada92c268ee951f35a3ad3c7e4dbb2def73cca1bca0e208be1"
+    },
+    {
+      "file": "examples/haddock_stages/smoke/02_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/smoke/02_caprieval/capri_ss.tsv",
+      "sha256_original": "d6bd72b904636f75c1c6a9ddb864db814065ad7190240e4f92cfa3982c52b7c6"
+    },
+    {
+      "file": "examples/haddock_stages/full/06_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/full/06_caprieval/capri_ss.tsv",
+      "sha256_original": "3b1b05f4244655ebd4e3929b3dbb016f8cd4ed9dbecbabc8d5d6f69de6f6542d"
+    },
+    {
+      "file": "examples/haddock_stages/full/11_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/full/11_caprieval/capri_ss.tsv",
+      "sha256_original": "6946fba0901e606a4470a982eba4aacd146dc835a538613201b81e11c3b12871"
+    },
+    {
+      "file": "examples/haddock_stages/full/08_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/full/08_caprieval/capri_ss.tsv",
+      "sha256_original": "6ce5d6f481d502dcfc192be8ac60e54e96af844abd27d0c6211e880139c9720b"
+    },
+    {
+      "file": "examples/haddock_stages/full/04_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/full/04_caprieval/capri_ss.tsv",
+      "sha256_original": "bf5cdf3467748ce77d08b4f8687f8ab12db1b2ebe68279a1428fa722cbfd4d0e"
+    },
+    {
+      "file": "examples/haddock_stages/full/13_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/full/13_caprieval/capri_ss.tsv",
+      "sha256_original": "d15dfd82d7e725aecbad536c09bdca028c5a33669b78bc447631833a5ea0ab76"
+    },
+    {
+      "file": "examples/haddock_stages/full/02_caprieval/capri_ss.tsv",
+      "origin": "workflows/haddock_debian13_20261023/runs/full/02_caprieval/capri_ss.tsv",
+      "sha256_original": "72d8d8c1015c559c30dedd5f8895edddec6a2d310e79bec74d3ccf3b7ca56baa"
+    },
+    {
+      "file": "scripts/analyze_af3_case.py",
+      "origin": "scripts/analyze_af3_case.py",
+      "sha256_original": "09f246333e978755f6fcd76f6f6a047c6b48246b9ba9ce122ad40915720d4e2c"
+    },
+    {
+      "file": "scripts/analyze_proteinmpnn.py",
+      "origin": "scripts/analyze_proteinmpnn.py",
+      "sha256_original": "c290606e41406bb1fc37ee39e665ff1120bc8e30558538135cb88c7d6223c7ab"
+    },
+    {
+      "file": "scripts/build_case_brief.py",
+      "origin": "scripts/build_case_brief.py",
+      "sha256_original": "f65815dd3a669fbdb8fa315946fc549a66861d143b21665b79df2c1757500788"
+    },
+    {
+      "file": "scripts/check_boltz_input.py",
+      "origin": "scripts/check_boltz_input.py",
+      "sha256_original": "55a9a27cb6c9d0916431d82016658924e57707550ea4714782c77503a8f72f40"
+    },
+    {
+      "file": "scripts/check_modern_inputs.py",
+      "origin": "scripts/check_modern_inputs.py",
+      "sha256_original": "0d2d2d795e89a577250a921ff57b4cfa77c5b821bab4ff6bfe613072cdc00f07"
+    },
+    {
+      "file": "scripts/extract_cart_data.py",
+      "origin": "scripts/extract_cart_data.py",
+      "sha256_original": "7e6ace24c742fd3ba68ca276ae831f479d2597673bed33a2beae94d6f65947ab"
+    },
+    {
+      "file": "scripts/plot_cart.py",
+      "origin": "scripts/plot_cart.py",
+      "sha256_original": "32609f5609879cd8dac45b7d0f0fe910c18fe54acf786b5ef0be0eb364887cd7"
+    },
+    {
+      "file": "scripts/prepare_haddock_practice.py",
+      "origin": "scripts/prepare_haddock_practice.py",
+      "sha256_original": "7a74c4feef0687627f4f65430a5e97c0fa5446acb06d8cb6b3db7fd2a68ecfc2"
+    },
+    {
+      "file": "scripts/optimize_sequence.py",
+      "origin": "scripts/optimize_sequence.py",
+      "sha256_original": "851336b60171b247e09a29f8813953752912a12bfa8c85711cb0a6db199d63bd"
+    },
+    {
+      "file": "scripts/verify_sequence_optimization.py",
+      "origin": "scripts/verify_sequence_optimization.py",
+      "sha256_original": "0c25160428042d3b740cc85175a186e715d9e6f04ae185afaacb4af1dc997e1f"
+    },
+    {
+      "file": "scripts/run_proteinmpnn.py",
+      "origin": "scripts/run_proteinmpnn.py",
+      "sha256_original": "03f0c6de4a7b49de8673424f83b7fcfec6bf040cd76c5f8e07dd3631311c64b9"
+    },
+    {
+      "file": "scripts/run_md.py",
+      "origin": "scripts/run_md.py",
+      "sha256_original": "48413b8f70d00723397e495ea6e54dd566a1cb77e7f4608159803a5e2cb4ea0a"
+    },
+    {
+      "file": "scripts/analyze_md.py",
+      "origin": "scripts/analyze_md.py",
+      "sha256_original": "702a883adca3d6928ca977e095e0ad09e0e1f8d590d151b0952c3b09f45e3c0b"
+    },
+    {
+      "file": "scripts/run_rdkit_case.py",
+      "origin": "scripts/run_rdkit_case.py",
+      "sha256_original": "85c5692d25ed967f813b06e2b2e97616dc936f7f8739702d4c1ccba0c0661f7a"
+    },
+    {
+      "file": "scripts/run_pyrosetta_case.py",
+      "origin": "scripts/run_pyrosetta_case.py",
+      "sha256_original": "975a58ea4ad374520b498f3c31694096c87c4ed8a5c1a815a93daccf748c40ae"
+    },
+    {
+      "file": "scripts/run_boltz_compatible.py",
+      "origin": "scripts/run_boltz_compatible.py",
+      "sha256_original": "3f42b6aa1b17f8e194f68a4fff44831729da4ca382eda0cda221e155c6bc9a97"
+    },
+    {
+      "file": "scripts/run_ligand_compat.py",
+      "origin": "scripts/run_ligand_compat.py",
+      "sha256_original": "f4f720f8fe1251f81d02f604ec91ae3d824b783833319354c6fb95546b21c322"
+    },
+    {
+      "file": "scripts/prepare_modern_inputs.py",
+      "origin": "scripts/prepare_modern_inputs.py",
+      "sha256_original": "05c24a469a3c2886686e98d96d50537ec0178b004f1187d54f0cc127ec975858"
+    },
+    {
+      "file": "source_manifest.json",
+      "origin": "source_manifest.json",
+      "sha256_original": "3b5dabea8d1db418dab41478104bf50849c1410802b1346363f26645ee81e499"
+    },
+    {
+      "file": "env/requirements-debian-analysis.lock.txt",
+      "origin": "requirements-analysis.txt",
+      "sha256_original": "3851f73ca35f1835cdaf0cebe6b61053e3a5fb0a06ee30ffbfd9556b7e26b499"
+    },
+    {
+      "file": "chapters/00_start/tutorial.md",
+      "origin": "website/00_学习主线与面试重点.md",
+      "sha256_original": "c57fe4d79f0d9c3ac1a45df72e059fdac6f116939c93e879c12405db2de47827"
+    },
+    {
+      "file": "chapters/01_haddock/tutorial.md",
+      "origin": "website/01_多肽结构与HADDOCK3完整教程.md",
+      "sha256_original": "ef9a41484603de7454d8dc5a363c9fc24b1c9b426c0418729ef20659643988bf"
+    },
+    {
+      "file": "chapters/02_proteinmpnn/tutorial.md",
+      "origin": "website/02_ProteinMPNN序列设计，从已知骨架到可检验的肽候选.md",
+      "sha256_original": "34346c8bc0e425d2ecc269958d236588394b106932556b4f292555a69586d59b"
+    },
+    {
+      "file": "chapters/03_gromacs/tutorial.md",
+      "origin": "website/03_GROMACS官方与本地复现教程.md",
+      "sha256_original": "dbc4460078dede8cd5cb645a2ab7970d5e349966155ab9f635b4be6a2edb7d64"
+    },
+    {
+      "file": "chapters/04_cart/tutorial.md",
+      "origin": "website/04_CAR-T原始数据与工程判断教程.md",
+      "sha256_original": "10ac2383b32427c4cd3475ad840d981e76451f916d6312c7288697d3de4ca54a"
+    },
+    {
+      "file": "chapters/05_integration/tutorial.md",
+      "origin": "website/05_跨案例知识点与综合练习.md",
+      "sha256_original": "1ff4e0a07fcdc593063b113c4ca3b8709f60c94596b4855cb7542db115595f70"
+    },
+    {
+      "file": "chapters/06_sequence_optimization/tutorial.md",
+      "origin": "website/06_序列优化完整教程.md",
+      "sha256_original": "53fe86c0b84fa09eaab728a9dde0270005eb9274bd8aed60e16dee06023c3072"
+    },
+    {
+      "file": "chapters/07_gnina/tutorial.md",
+      "origin": "website/07_GNINA小分子对接完整教程.md",
+      "sha256_original": "bf57f38d65e25dc29102082bb077bc781c54d7330a093087e1d566549d4c2241"
+    },
+    {
+      "file": "chapters/08_interview/tutorial.md",
+      "origin": "website/08_面试问答与讲述练习.md",
+      "sha256_original": "8c9bad9ef1185ed749bdc10b1837dfba1a5efd6049e4787d5b1350cc3143ff6a"
+    },
+    {
+      "file": "chapters/09_rdkit/tutorial.md",
+      "origin": "website/09_RDKit化学信息学实战教程.md",
+      "sha256_original": "224a13597509ebea90f01abe85f7792a9467f307c9ec643a86eea9a3c2c1c0ad"
+    },
+    {
+      "file": "chapters/10_pyrosetta/tutorial.md",
+      "origin": "website/10_PyRosetta结构精修与界面分析教程.md",
+      "sha256_original": "4beeab1fb1a6dfd0f784257ce6575a4fa3f5b273d6531871e1e53050fc715a5c"
+    },
+    {
+      "file": "chapters/11_rfdiffusion2/tutorial.md",
+      "origin": "website/11_RFdiffusion2原子级基序支架设计教程.md",
+      "sha256_original": "491351400874ee92fcbb48814c8860cad3aea9dbb8f54f972a94dee12d2ecd16"
+    },
+    {
+      "file": "chapters/12_rfantibody/tutorial.md",
+      "origin": "website/12_RFantibody抗体与VHH设计教程.md",
+      "sha256_original": "ae1532931ba3afdb7bc6975133a87d2217feb619abb64772a4f60e3cb87610c0"
+    },
+    {
+      "file": "chapters/13_alphafold3/tutorial.md",
+      "origin": "website/13_AlphaFold3复合物预测教程.md",
+      "sha256_original": "10155dfe20324a136d2700b250e54e0c0b79f573e57f3b6b659936e8166c8a95"
+    },
+    {
+      "file": "chapters/14_boltz2/tutorial.md",
+      "origin": "website/14_Boltz2结构与亲和力预测教程.md",
+      "sha256_original": "36cd69d323309cf8c5f7219af8429750b3fc098e0193885bf201b369590bbc5d"
+    },
+    {
+      "file": "chapters/15_boltzgen/tutorial.md",
+      "origin": "website/15_BoltzGen结合分子设计教程.md",
+      "sha256_original": "744dab2473bc30aefddd7d0ff5fe5b398bb984378ddbfd19af40a09a8cb58b09"
+    },
+    {
+      "file": "examples/debian13_20261023/rfdiffusion2_native.json",
+      "origin": "results/debian13_20261023/rfdiffusion2_native.json",
+      "sha256_original": "66039f594e7672f11b0fb3cc5960de2d412a46541fccf1ae2090f6d8e3111239"
+    },
+    {
+      "file": "examples/debian13_20261023/rfdiffusion2_downstream_native.json",
+      "origin": "results/debian13_20261023/rfdiffusion2_downstream_native.json",
+      "sha256_original": "16d241075d5eaf136af022eda41863cd374982dbaf125c5608e560a8062d2900"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_mpnn_workdir.json",
+      "origin": "results/debian13_20261023/rfantibody_mpnn_workdir.json",
+      "sha256_original": "ff1df325c0446c79b2a75a70e9cb8bd06fcd945dde4ac716daf15565442bb556"
+    },
+    {
+      "file": "examples/debian13_20261023/rfantibody_rf2_workdir.json",
+      "origin": "results/debian13_20261023/rfantibody_rf2_workdir.json",
+      "sha256_original": "b9cf5fe9d4548c8b9bd97be799df4ab4b114ff814e09d9952934c6b45167abe9"
+    },
+    {
+      "file": "examples/debian13_20261023/environment_inventory.json",
+      "origin": "results/debian13_20261023/environment_inventory.json",
+      "sha256_original": "745beecd6ac2163c54f75c0645c932fd0d8f05d00caeeb725bfdf9545b1712fd"
+    },
+    {
+      "file": "examples/debian13_20261023/alphafold3_gpu_repaired.json",
+      "origin": "results/debian13_20261023/alphafold3_gpu_repaired.json",
+      "sha256_original": "cb818d88fa903d272893105ae7ce892ee66b2170c0999c1e227d9140bc31b7d5"
+    },
+    {
+      "file": "examples/debian13_20261023/cache/boltz/verified_weights.json",
+      "origin": "results/debian13_20261023/cache/boltz/verified_weights.json",
+      "sha256_original": "4e326a9650731d5ca4fbab7c488122995f5fcdf4eac566f8c2777140cdbd1b82"
+    },
+    {
+      "file": "examples/debian13_20261023/boltzgen_weight_hashes.json",
+      "origin": "results/debian13_20261023/boltzgen_weight_hashes.json",
+      "sha256_original": "85696619957a2d67372090a28e325f344dc71be821cc9f27f1baff0b5dffa741"
+    },
+    {
+      "file": "examples/debian13_20261023/peptide/peptide_numbering.csv",
+      "origin": "results/debian13_20261023/peptide/peptide_numbering.csv",
+      "sha256_original": "840e4090d4b76cd7922ba25826d6c8190fe4f361bb332ebc864e3e97978ff72e"
+    },
+    {
+      "file": "examples/md_run_metadata/run_summary.json",
+      "origin": "results/md/debian13_gpu_20261023/run_summary.json",
+      "sha256_original": "570e1089838814214388a87ece1c2f78f2965a67b4f33133792e356a8e4ef876"
+    },
+    {
+      "file": "examples/md_run_metadata/md.log",
+      "origin": "results/md/debian13_gpu_20261023/md.log",
+      "sha256_original": "fe03f48f68b238fefeb501574c660755f04d925f479d9f791c6327f3de343432"
+    }
+  ]
+}

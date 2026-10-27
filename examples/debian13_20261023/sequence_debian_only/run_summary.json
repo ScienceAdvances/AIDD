@@ -1,0 +1,81 @@
+{
+  "completed": true,
+  "date": "2026-10-24",
+  "device": "cuda",
+  "platform": "Linux-6.12.113+deb13-amd64-x86_64-with-glibc2.41",
+  "python": "3.12.15",
+  "packages": {
+    "numpy": "2.0.2",
+    "torch": "2.6.0+cu126",
+    "Bio": "1.88",
+    "matplotlib": "3.11.2"
+  },
+  "official_commit": "8907e6671bfbfc92303b5f79c4b5e6ce47cdef57",
+  "model": "v_48_020",
+  "seed": 20261016,
+  "decoding_orders": 8,
+  "common_orders_for_all_candidates": true,
+  "chain_order": [
+    "B",
+    "A"
+  ],
+  "score_mask_positions_B": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    11,
+    12,
+    13
+  ],
+  "fixed_hotspots_B": [
+    3,
+    7,
+    10
+  ],
+  "receptor_and_hotspots_checked": true,
+  "score_units": "dimensionless average negative natural log probability",
+  "scoring_temperature": "not applied; raw model log probabilities",
+  "candidate_count": 197,
+  "single_mutants": 190,
+  "eligible_count": 176,
+  "pareto_count": 5,
+  "shortlist": [
+    "WT",
+    "single_D5E",
+    "single_S4E",
+    "single_L9K"
+  ],
+  "hard_rules": {
+    "max_mutations": 2,
+    "no_new_cysteine": true,
+    "no_new_proline_positions": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "pareto_objectives_minimize": [
+    "mpnn_nll_mean",
+    "gravy",
+    "mutation_count"
+  ],
+  "input_and_script_sha256": {
+    "data/peptide/1YCR_original.pdb": "d8f23749da9ec22da2e17bb31c33803e3db6123233cd0404bdc005111196e7a3",
+    "results/aidd/debian13_gpu_20261023/parsed.jsonl": "6154a7a3ef10639a13c6446a20658c6309bf5e2b59789ecfb3ce69f233f9b866",
+    "results/aidd/debian13_gpu_20261023/candidate_summary.csv": "28eb85fda919d2fff5e2a14cad4248e78d9744cb1397787c0e2b7504e4c1a6ba",
+    "data/aidd/ProteinMPNN/protein_mpnn_utils.py": "74c8f9b7553422a7a0bbd705874844ee103c8926c2c96f154a87e0b824071e1b",
+    "data/aidd/ProteinMPNN/vanilla_model_weights/v_48_020.pt": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+    "scripts/optimize_sequence.py": "851336b60171b247e09a29f8813953752912a12bfa8c85711cb0a6db199d63bd"
+  },
+  "source_manifest_sha256": "3b5dabea8d1db418dab41478104bf50849c1410802b1346363f26645ee81e499",
+  "elapsed_seconds": 6.513032561999921,
+  "structural_reprediction_completed": false,
+  "experimental_validation": false
+}

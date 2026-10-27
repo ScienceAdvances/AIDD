@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-24",
+  "checks_passed": true,
+  "rfdiffusion2": {
+    "motif_residues": 4,
+    "motif_atoms": 10,
+    "ligand_atom_counts": {
+      "NAD": 44,
+      "OXM": 6
+    },
+    "design_executed": false
+  },
+  "rfantibody": {
+    "target_chain_residues": {
+      "B": 284
+    },
+    "framework_chain_residues": {
+      "H": 127
+    },
+    "cdr_label_counts": {
+      "H1": 10,
+      "H2": 6,
+      "H3": 16
+    },
+    "hotspots_checked": [
+      "B146",
+      "B170",
+      "B177"
+    ],
+    "design_executed": false
+  },
+  "alphafold3_input": {
+    "chain_lengths": {
+      "A": 85,
+      "B": 13
+    },
+    "msa": "explicitly empty",
+    "templates": 0
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "run": "smoke",
+      "stage": "02_caprieval",
+      "models": 12,
+      "top_score": -44.492,
+      "top_score_dockq": 0.474,
+      "best_dockq": 0.474,
+      "best_dockq_score_rank": 1,
+      "dockq_rounding_error": 0.0004899833171569667,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/02_caprieval/capri_ss.tsv"
+    },
+    {
+      "run": "smoke",
+      "stage": "04_caprieval",
+      "models": 12,
+      "top_score": -172.64,
+      "top_score_dockq": 0.566,
+      "best_dockq": 0.566,
+      "best_dockq_score_rank": 1,
+      "dockq_rounding_error": 0.0006531407650387788,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/04_caprieval/capri_ss.tsv"
+    },
+    {
+      "run": "smoke",
+      "stage": "06_caprieval",
+      "models": 12,
+      "top_score": -102.346,
+      "top_score_dockq": 0.569,
+      "best_dockq": 0.569,
+      "best_dockq_score_rank": 1,
+      "dockq_rounding_error": 0.0003742981916612098,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/06_caprieval/capri_ss.tsv"
+    },
+    {
+      "run": "smoke",
+      "stage": "13_caprieval",
+      "models": 4,
+      "top_score": -40.72,
+      "top_score_dockq": 0.051,
+      "best_dockq": 0.055,
+      "best_dockq_score_rank": 4,
+      "dockq_rounding_error": 0.0003679313120798222,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/smoke/13_caprieval/capri_ss.tsv"
+    },
+    {
+      "run": "full",
+      "stage": "02_caprieval",
+      "models": 999,
+      "top_score": -46.439,
+      "top_score_dockq": 0.483,
+      "best_dockq": 0.483,
+      "best_dockq_score_rank": 1,
+      "dockq_rounding_error": 0.0006628305405257454,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/02_caprieval/capri_ss.tsv"
+    },
+    {
+      "run": "full",
+      "stage": "04_caprieval",
+      "models": 999,
+      "top_score": -176.255,
+      "top_score_dockq": 0.09,
+      "best_dockq": 0.566,
+      "best_dockq_score_rank": 2,
+      "dockq_rounding_error": 0.0006665550910658624,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/04_caprieval/capri_ss.tsv"
+    },
+    {
+      "run": "full",
+      "stage": "06_caprieval",
+      "models": 999,
+      "top_score": -102.346,
+      "top_score_dockq": 0.569,
+      "best_dockq": 0.569,
+      "best_dockq_score_rank": 1,
+      "dockq_rounding_error": 0.0006618777235925521,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/06_caprieval/capri_ss.tsv"
+    },
+    {
+      "run": "full",
+      "stage": "13_caprieval",
+      "models": 32,
+      "top_score": -102.346,
+      "top_score_dockq": 0.569,
+      "best_dockq": 0.569,
+      "best_dockq_score_rank": 1,
+      "dockq_rounding_error": 0.0004952931260798349,
+      "table": "${REPOSITORY_ROOT}/workflows/haddock_debian13_20261023/runs/full/13_caprieval/capri_ss.tsv"
+    }
+  ],
+  "reference": "human 1YCR used to evaluate mouse docking inputs; homology caveat applies"
+}

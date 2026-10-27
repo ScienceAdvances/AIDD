@@ -1,0 +1,82 @@
+[
+  {
+    "number": "00",
+    "directory": "00_start",
+    "title": "学习主线与练习导航"
+  },
+  {
+    "number": "01",
+    "directory": "01_haddock",
+    "title": "多肽结构与 HADDOCK3"
+  },
+  {
+    "number": "02",
+    "directory": "02_proteinmpnn",
+    "title": "ProteinMPNN 序列设计"
+  },
+  {
+    "number": "03",
+    "directory": "03_gromacs",
+    "title": "GROMACS 分子动力学"
+  },
+  {
+    "number": "04",
+    "directory": "04_cart",
+    "title": "CAR-T 原始数据与工程判断"
+  },
+  {
+    "number": "05",
+    "directory": "05_integration",
+    "title": "跨案例证据与综合简报"
+  },
+  {
+    "number": "06",
+    "directory": "06_sequence_optimization",
+    "title": "受约束的序列优化"
+  },
+  {
+    "number": "07",
+    "directory": "07_gnina",
+    "title": "GNINA 小分子重对接"
+  },
+  {
+    "number": "08",
+    "directory": "08_interview",
+    "title": "面试问答与研究讲述"
+  },
+  {
+    "number": "09",
+    "directory": "09_rdkit",
+    "title": "RDKit 化学身份与构象"
+  },
+  {
+    "number": "10",
+    "directory": "10_pyrosetta",
+    "title": "PyRosetta 侧链精修与界面"
+  },
+  {
+    "number": "11",
+    "directory": "11_rfdiffusion2",
+    "title": "RFdiffusion2 原子基序支架"
+  },
+  {
+    "number": "12",
+    "directory": "12_rfantibody",
+    "title": "RFantibody 抗体与 VHH"
+  },
+  {
+    "number": "13",
+    "directory": "13_alphafold3",
+    "title": "AlphaFold 3 复合物预测"
+  },
+  {
+    "number": "14",
+    "directory": "14_boltz2",
+    "title": "Boltz-2 结构与亲和力输出"
+  },
+  {
+    "number": "15",
+    "directory": "15_boltzgen",
+    "title": "BoltzGen 结合分子设计"
+  }
+]

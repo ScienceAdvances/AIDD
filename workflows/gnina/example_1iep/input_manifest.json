@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/develop/example/basic_docking/data/1iep_receptorH.pdb",
+      "file": "${REPOSITORY_ROOT}/workflows/gnina/example_1iep/receptor.pdb",
+      "bytes": 357444,
+      "sha256": "5f6aee6029f9a2a2c2be32d4eb948ae70808690573e1b69a0850cdffd7048ca7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ccsb-scripps/AutoDock-Vina/develop/example/basic_docking/data/1iep_ligand.sdf",
+      "file": "${REPOSITORY_ROOT}/workflows/gnina/example_1iep/reference.sdf",
+      "bytes": 6621,
+      "sha256": "051b8742c32adc05c07fb486a4e7c9327f84e131cee33ac4e6a568d07553eb38"
+    }
+  ],
+  "rdkit_version": "2026.09.1",
+  "heavy_atoms": 37,
+  "source_formal_charge": 1,
+  "source_isomeric_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CC[NH+](C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+  "generated_conformer_seed": 20261011,
+  "mmff_converged": true,
+  "reference_center_A": [
+    15.1069,
+    53.97655,
+    17.1429
+  ],
+  "reference_extent_plus_8A": [
+    18.2324,
+    26.6441,
+    23.186
+  ],
+  "box_note": "Reference bounds only; GNINA autobox_extend may enlarge the actual box",
+  "ph_state_enumeration_completed": false,
+  "input_files_verified_on_debian": "2026-10-24",
+  "docking_results": "results/debian13_20261023/gnina_comparison.csv",
+  "preparation_stage_only": true,
+  "docking_completion_evidence": "examples/debian13_20261023/gnina_comparison.csv"
+}

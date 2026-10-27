@@ -1,0 +1,26 @@
+{
+  "proteinmpnn_weights": {
+    "description": "ProteinMPNN v_48_020，约 6.4 MB；第 02、06 章重新推理需要",
+    "kind": "file",
+    "url": "https://raw.githubusercontent.com/dauparas/ProteinMPNN/8907e6671bfbfc92303b5f79c4b5e6ce47cdef57/vanilla_model_weights/v_48_020.pt",
+    "sha256": "c9cb4a671d79604111231f8dbfc7c590e06f1197453b7a6854ac6661a642f5bd",
+    "bytes": 6681301,
+    "destination": "data/aidd/ProteinMPNN/vanilla_model_weights/v_48_020.pt"
+  },
+  "gromacs_reference": {
+    "description": "GROMACS 官方教程归档，含原始官方轨迹，约 36.5 MB；与自跑轨迹一起执行完整 MD 分析时需要",
+    "kind": "zip",
+    "url": "https://gitlab.com/gromacs/online-tutorials/md-intro-tutorial/-/archive/main/md-intro-tutorial-main.zip",
+    "sha256": "cb5047ee8e6761bf75fe080e79e5d06798d6750d8b10c5a9b99c72eb071bc944",
+    "bytes": 36534966,
+    "destination": "data/md"
+  },
+  "haddock_official": {
+    "description": "官方原始教程归档，约 241 MB；仓库已有本课所需输入，通常不用下载",
+    "kind": "zip",
+    "url": "https://surfdrive.surf.nl/public.php/dav/files/3GE8k07b8EtuVK8",
+    "sha256": "c097e496fd55b93cd7e148fe4cf868e7ceae1a819fd911c3ae8a1338ad3b0d38",
+    "bytes": 241474807,
+    "destination": "downloads/haddock_official"
+  }
+}

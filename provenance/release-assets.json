@@ -1,0 +1,16 @@
+[
+  {
+    "file": "AIDD-practice-data-debian13.tar.gz",
+    "bytes": 117022871,
+    "sha256": "3cc16482995c128c3bb9718d976b421c7fb98249941898897ed92646ddaad929",
+    "members": 3954,
+    "release_url": null,
+    "contents": [
+      "md: complete Debian solvated 1 ns trajectory and inputs",
+      "haddock/runs: Debian smoke and full run outputs",
+      "rfdiffusion2: backbone, mapping, LigandMPNN and Chai outputs"
+    ],
+    "extract_at": "repository root; creates optional_data/debian13_20261023/",
+    "not_required_for_offline_analysis": true
+  }
+]

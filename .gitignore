@@ -1,0 +1,26 @@
+# Personal calculations and local configuration
+/runs/
+/downloads/
+/config/tools.json
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+# Downloaded model resources (never commit weights)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.sif
+*.bin
+/data/md/md-intro-tutorial-main/data/reference/
+# Full run outputs belong in optional release assets
+*.trr
+*.tpr
+*.cpt
+*.edr
+
+/optional_data/

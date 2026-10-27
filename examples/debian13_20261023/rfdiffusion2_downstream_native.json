@@ -1,0 +1,17 @@
+{
+  "name": "rfdiffusion2_downstream_native",
+  "command": [
+    "${REPOSITORY_ROOT}/.venv-ligand-debian13/bin/python",
+    "${REPOSITORY_ROOT}/scripts/run_rfd_native_pipeline.py",
+    "--config-name=open_source_demo",
+    "outdir=${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/rfdiffusion2",
+    "start_step=mpnn",
+    "stop_step=end",
+    "score.chai1.omit_esm_embeddings=True"
+  ],
+  "cwd": "${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023",
+  "started": "2026-10-23T18:25:32.900513+08:00",
+  "returncode": 0,
+  "success": true,
+  "elapsed_seconds": 1343.7394724729998
+}

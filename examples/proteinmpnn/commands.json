@@ -1,0 +1,70 @@
+[
+  {
+    "step": "parse",
+    "argv": [
+      "${REPOSITORY_ROOT}/.venv-analysis-debian13/bin/python",
+      "${REPOSITORY_ROOT}/data/aidd/ProteinMPNN/helper_scripts/parse_multiple_chains.py",
+      "--input_path",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/pdbs",
+      "--output_path",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/parsed.jsonl"
+    ]
+  },
+  {
+    "step": "chains",
+    "argv": [
+      "${REPOSITORY_ROOT}/.venv-analysis-debian13/bin/python",
+      "${REPOSITORY_ROOT}/data/aidd/ProteinMPNN/helper_scripts/assign_fixed_chains.py",
+      "--input_path",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/parsed.jsonl",
+      "--output_path",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/chains.jsonl",
+      "--chain_list",
+      "B"
+    ]
+  },
+  {
+    "step": "fixed",
+    "argv": [
+      "${REPOSITORY_ROOT}/.venv-analysis-debian13/bin/python",
+      "${REPOSITORY_ROOT}/data/aidd/ProteinMPNN/helper_scripts/make_fixed_positions_dict.py",
+      "--input_path",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/parsed.jsonl",
+      "--output_path",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/fixed_positions.jsonl",
+      "--chain_list",
+      "B",
+      "--position_list",
+      "3 7 10"
+    ]
+  },
+  {
+    "step": "design",
+    "argv": [
+      "${REPOSITORY_ROOT}/.venv-analysis-debian13/bin/python",
+      "${REPOSITORY_ROOT}/data/aidd/ProteinMPNN/protein_mpnn_run.py",
+      "--jsonl_path",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/parsed.jsonl",
+      "--chain_id_jsonl",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/chains.jsonl",
+      "--fixed_positions_jsonl",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/fixed_positions.jsonl",
+      "--out_folder",
+      "${REPOSITORY_ROOT}/results/aidd/debian13_gpu_20261023/designs",
+      "--model_name",
+      "v_48_020",
+      "--num_seq_per_target",
+      "2",
+      "--batch_size",
+      "1",
+      "--sampling_temp",
+      "0.1 0.3 0.5",
+      "--seed",
+      "20261010",
+      "--save_score",
+      "1",
+      "--save_probs",
+      "1"
+    ]
+  }
+]

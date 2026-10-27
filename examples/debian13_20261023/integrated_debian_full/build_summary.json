@@ -1,0 +1,9 @@
+{
+  "completed": true,
+  "evidence_rows": 15,
+  "candidate_plan_rows": 4,
+  "sequence_run": "${REPOSITORY_ROOT}/results/debian13_20261023/sequence_debian_only",
+  "cart_run": "${REPOSITORY_ROOT}/results/debian13_20261023/cart",
+  "md_analysis": "${REPOSITORY_ROOT}/results/debian13_20261023/md_analysis/analysis_summary.json",
+  "gnina_run": "${REPOSITORY_ROOT}/results/debian13_20261023/gnina_rescore_gpu"
+}

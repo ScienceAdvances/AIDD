@@ -1,0 +1,30 @@
+{
+  "backbones": 2,
+  "sequence_designs": 4,
+  "refolded_models": 4,
+  "passed": true,
+  "target_sequence_preserved": true,
+  "framework_sequence_preserved_during_mpnn": true,
+  "mpnn_to_rf2_sequences_preserved": true,
+  "independent_rmsd_max_error_A": 0.0023249816894548303,
+  "best_by_interaction_pae": {
+    "interaction_pae": 4.68,
+    "pae": 2.46,
+    "pred_lddt": 0.92,
+    "target_aligned_antibody_rmsd": 1.15,
+    "target_aligned_cdr_rmsd": 1.25,
+    "framework_aligned_antibody_rmsd": 0.49,
+    "framework_aligned_cdr_rmsd": 0.69,
+    "framework_aligned_H1_rmsd": 0.6,
+    "framework_aligned_H2_rmsd": 0.27,
+    "framework_aligned_H3_rmsd": 0.91,
+    "tag": "samples_design_1_dldesign_1_best",
+    "sequence": "QVQLVESGGGLVQPGGSLRLSCAASGGRFDLYSLGWFRQAPGQGLEAVAAISSDGKVTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAAGVTMVGYLYWGQGTLVTVS",
+    "length": 117,
+    "cdr_mutations": 17,
+    "independent_target_aligned_antibody_rmsd_A": 1.1519635915756226
+  },
+  "interpretation": "One candidate retains the intended pose with low interface PAE; two have >42 A target-aligned displacement despite high global pLDDT. These are model predictions, not experimentally verified binders.",
+  "scorefile_precision": "Official Quiver scores rounded to two decimals; light-chain metrics omitted for VHH.",
+  "experimental_validation": false
+}

@@ -1,0 +1,55 @@
+{
+  "completed": true,
+  "date": "2026-10-20",
+  "pyrosetta_version": "┌───────────────────────────────────────────────────────────────────────────────┐\n│                                  PyRosetta-4                                  │\n│               Created in JHU by Sergey Lyskov and PyRosetta Team              │\n│               (C) Copyright Rosetta Commons Member Institutions               │\n│                                                                               │\n│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRES PURCHASE OF A LICENSE │\n│          See LICENSE.PyRosetta.md or email license@uw.edu for details         │\n└───────────────────────────────────────────────────────────────────────────────┘\nPyRosetta-4 2026 [Rosetta PyRosetta4.Release.python311.ubuntu 2026.03+releasequarterly.5e498f1409c68ade56c8ce5842bf79e1b02e8db4 2026-01-13T13:24:11] retrieved from: http://www.pyrosetta.org",
+  "scorefunction": "ref2015",
+  "backbone_fixed": true,
+  "jumps_fixed": true,
+  "sidechains_repacked": "all protein residues",
+  "interface_jump": 1,
+  "pack_separated": true,
+  "source_sha256": "d8f23749da9ec22da2e17bb31c33803e3db6123233cd0404bdc005111196e7a3",
+  "candidates": [
+    {
+      "candidate": "WT",
+      "mutation_pdb": "WT",
+      "pose_position": 0,
+      "peptide_sequence": "ETFSDLWKLLPEN",
+      "total_score_before_REU": 161.74618969903014,
+      "total_score_after_REU": -175.3269845360587,
+      "interface_score_difference_REU": -26.913714959459526,
+      "interface_delta_sasa_A2": 1491.3853506908206
+    },
+    {
+      "candidate": "D5E",
+      "mutation_pdb": "B21GLU",
+      "pose_position": 90,
+      "peptide_sequence": "ETFSELWKLLPEN",
+      "total_score_before_REU": 170.08565721792723,
+      "total_score_after_REU": -178.1340210428474,
+      "interface_score_difference_REU": -26.719497789668736,
+      "interface_delta_sasa_A2": 1497.1026924974851
+    },
+    {
+      "candidate": "S4E",
+      "mutation_pdb": "B20GLU",
+      "pose_position": 89,
+      "peptide_sequence": "ETFEDLWKLLPEN",
+      "total_score_before_REU": 439.0108279991243,
+      "total_score_after_REU": -175.90296437702074,
+      "interface_score_difference_REU": -26.366112671723073,
+      "interface_delta_sasa_A2": 1539.5144648166083
+    },
+    {
+      "candidate": "L9K",
+      "mutation_pdb": "B25LYS",
+      "pose_position": 94,
+      "peptide_sequence": "ETFSDLWKKLPEN",
+      "total_score_before_REU": 186.51804925776568,
+      "total_score_after_REU": -172.3234225670956,
+      "interface_score_difference_REU": -27.10022504344272,
+      "interface_delta_sasa_A2": 1492.4556874293894
+    }
+  ],
+  "experimental_validation": false
+}

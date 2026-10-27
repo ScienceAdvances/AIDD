@@ -1,0 +1,14 @@
+>1YCR, score=1.9195, global_score=1.4930, fixed_chains=['A'], designed_chains=['B'], model_name=v_48_020, git_hash=unknown, seed=20261010
+ETFSDLWKLLPEN
+>T=0.1, sample=1, score=1.2068, global_score=1.4477, seq_recovery=0.4000
+ETFEELWSKLPQT
+>T=0.1, sample=2, score=1.0887, global_score=1.4078, seq_recovery=0.4000
+ETFEELWAKLPQS
+>T=0.3, sample=1, score=1.1655, global_score=1.4460, seq_recovery=0.4000
+ETFEELWSKLPSS
+>T=0.3, sample=2, score=1.2239, global_score=1.4363, seq_recovery=0.4000
+ETFEELWAKLPKS
+>T=0.5, sample=1, score=1.6291, global_score=1.4914, seq_recovery=0.3000
+ESFSSIWSKLPST
+>T=0.5, sample=2, score=1.4959, global_score=1.4865, seq_recovery=0.3000
+ETFEQIWAKLPSR

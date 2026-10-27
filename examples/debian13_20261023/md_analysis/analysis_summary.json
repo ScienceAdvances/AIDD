@@ -1,0 +1,36 @@
+[
+  {
+    "source": "official_1ns",
+    "input_directory": "${REPOSITORY_ROOT}/data/md/md-intro-tutorial-main/data/reference",
+    "frames": 201,
+    "protein_atoms": 4417,
+    "ca_atoms": 286,
+    "start_ps": 0.0,
+    "end_ps": 1000.0,
+    "rmsd_to_em_mean_nm": 0.10297157412935323,
+    "rmsd_to_first_mean_nm": 0.10044296830892563,
+    "rg_mean_nm": 1.888457549075335,
+    "temperature_mean_K": 299.9700073956044,
+    "pressure_mean_bar": 0.6575637452547461,
+    "density_mean_kg_m3": 1022.507577085914,
+    "independent_rmsd_max_error_nm": 6.068475914000615e-06,
+    "relevant_sampling_convergence_claim": false
+  },
+  {
+    "source": "local_run",
+    "input_directory": "${REPOSITORY_ROOT}/results/md/debian13_gpu_20261023",
+    "frames": 201,
+    "protein_atoms": 4417,
+    "ca_atoms": 286,
+    "start_ps": 0.0,
+    "end_ps": 1000.0,
+    "rmsd_to_em_mean_nm": 0.10307621940298507,
+    "rmsd_to_first_mean_nm": 0.10272219032049179,
+    "rg_mean_nm": 1.8898380181473717,
+    "temperature_mean_K": 299.99558184315686,
+    "pressure_mean_bar": -0.16876191408591357,
+    "density_mean_kg_m3": 1021.9978962027973,
+    "independent_rmsd_max_error_nm": 4.933668231968391e-06,
+    "relevant_sampling_convergence_claim": false
+  }
+]

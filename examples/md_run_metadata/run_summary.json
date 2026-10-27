@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "mode": "official_durations",
+  "stage_ps": "see saved mdp files",
+  "atoms": 39600,
+  "force_field": "charmm27",
+  "water": "tip3p",
+  "ion_concentration_M": 0.15,
+  "gpu_nonbonded_required": true,
+  "elapsed_seconds": 470.9649983080001,
+  "command_count": 14
+}

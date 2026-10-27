@@ -1,0 +1,59 @@
+{
+  "completed": true,
+  "date": "2026-10-20",
+  "rdkit_version": "2026.09.1",
+  "input": "${REPOSITORY_ROOT}/workflows/gnina/example_1iep/reference.sdf",
+  "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CC[NH+](C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+  "heavy_atoms": 37,
+  "formal_charge": 1,
+  "formula": "C29H32N7O+",
+  "molecular_weight_Da": 494.62300000000033,
+  "logP": 3.1732200000000006,
+  "tpsa_A2": 87.47999999999999,
+  "hbd": 3,
+  "hba": 6,
+  "requested_conformers": 20,
+  "generated_conformers": 18,
+  "converged_conformers": 18,
+  "canonical_roundtrip_tanimoto": 1.0,
+  "peptide_panel": [
+    {
+      "candidate": "WT",
+      "sequence": "ETFSDLWKLLPEN",
+      "formula": "C74H110N16O23",
+      "molecular_weight_Da": 1591.783,
+      "formal_charge_as_constructed": 0,
+      "heavy_atoms": 113,
+      "isomeric_smiles": "CC(C)C[C@H](NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)[C@@H](N)CCC(=O)O)[C@@H](C)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)O"
+    },
+    {
+      "candidate": "D5E",
+      "sequence": "ETFSELWKLLPEN",
+      "formula": "C75H112N16O23",
+      "molecular_weight_Da": 1605.81,
+      "formal_charge_as_constructed": 0,
+      "heavy_atoms": 114,
+      "isomeric_smiles": "CC(C)C[C@H](NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)[C@@H](N)CCC(=O)O)[C@@H](C)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)O"
+    },
+    {
+      "candidate": "S4E",
+      "sequence": "ETFEDLWKLLPEN",
+      "formula": "C76H112N16O24",
+      "molecular_weight_Da": 1633.8200000000006,
+      "formal_charge_as_constructed": 0,
+      "heavy_atoms": 116,
+      "isomeric_smiles": "CC(C)C[C@H](NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CCC(=O)O)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)[C@@H](N)CCC(=O)O)[C@@H](C)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)O"
+    },
+    {
+      "candidate": "L9K",
+      "sequence": "ETFSDLWKKLPEN",
+      "formula": "C74H111N17O23",
+      "molecular_weight_Da": 1606.7980000000005,
+      "formal_charge_as_constructed": 0,
+      "heavy_atoms": 114,
+      "isomeric_smiles": "CC(C)C[C@H](NC(=O)[C@H](CC(=O)O)NC(=O)[C@H](CO)NC(=O)[C@H](Cc1ccccc1)NC(=O)[C@@H](NC(=O)[C@@H](N)CCC(=O)O)[C@@H](C)O)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CC(N)=O)C(=O)O"
+    }
+  ],
+  "ph_state_enumerated": false,
+  "protein_binding_evaluated": false
+}

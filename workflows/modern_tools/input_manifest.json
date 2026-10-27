@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-20",
+  "official_inputs": [
+    {
+      "file": "workflows/modern_tools/rfdiffusion2/M0584_1ldm.pdb",
+      "source_url": "https://raw.githubusercontent.com/RosettaCommons/RFdiffusion2/d365cbf4db3958814a9f8e4f6f94fa309dfebc2b/rf_diffusion/benchmark/input/mcsa_41/M0584_1ldm.pdb",
+      "sha256": "b23a9937bc919e993c5fc390f93ccd960d8a34a8d8e198680812c6d228dbab0e"
+    },
+    {
+      "file": "workflows/modern_tools/rfdiffusion2/open_source_demo.json",
+      "source_url": "https://raw.githubusercontent.com/RosettaCommons/RFdiffusion2/d365cbf4db3958814a9f8e4f6f94fa309dfebc2b/rf_diffusion/benchmark/open_source_demo.json",
+      "sha256": "d1acfd0368ab499970cedf4d85cc779a43da4a2df9818097a92e02523ec2f04e"
+    },
+    {
+      "file": "workflows/modern_tools/rfantibody/flu_HA.pdb",
+      "source_url": "https://raw.githubusercontent.com/RosettaCommons/RFantibody/3e5a5bb1cb98befde9fc049ae3ff58cabb491f67/scripts/examples/example_inputs/flu_HA.pdb",
+      "sha256": "8fe788df3d66563f801e347f50081a138bd55f3979ac4f6e5ceca12362216ba9"
+    },
+    {
+      "file": "workflows/modern_tools/rfantibody/h-NbBCII10.pdb",
+      "source_url": "https://raw.githubusercontent.com/RosettaCommons/RFantibody/3e5a5bb1cb98befde9fc049ae3ff58cabb491f67/scripts/examples/example_inputs/h-NbBCII10.pdb",
+      "sha256": "ab444bb19d8391b1b75decd0026e0d9f09affff5a702a6180edc990bbda3095e"
+    },
+    {
+      "file": "workflows/modern_tools/boltz/official_affinity.yaml",
+      "source_url": "https://raw.githubusercontent.com/jwohlwend/boltz/v2.2.1/examples/affinity.yaml",
+      "sha256": "631bb444e0deea02db042cf2f766711d17a9372603d01694fbea804a12f7227e"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/9bkq-assembly2.cif",
+      "source_url": "https://raw.githubusercontent.com/HannesStark/boltzgen/a07fea1153111ef453aaea7a15697ee05de9291f/example/nanobody/9bkq-assembly2.cif",
+      "sha256": "60c5a196df584eda83a7cb6f13d010f128c53b299cb6c98088989cff730dbf67"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/7xl0.cif",
+      "source_url": "https://raw.githubusercontent.com/HannesStark/boltzgen/a07fea1153111ef453aaea7a15697ee05de9291f/example/nanobody_scaffolds/7xl0.cif",
+      "sha256": "0042fd3761f1aee883db62f72f86b8a5fca75198d9e2f265be197b7d44320c34"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/7xl0_official.yaml",
+      "source_url": "https://raw.githubusercontent.com/HannesStark/boltzgen/a07fea1153111ef453aaea7a15697ee05de9291f/example/nanobody_scaffolds/7xl0.yaml",
+      "sha256": "15dba3e9eaf55b6e5a24cc0b52ee58abe26d7357ba5419eb0fe998bf5eefe7f0"
+    }
+  ],
+  "derived_inputs": [
+    {
+      "file": "workflows/modern_tools/alphafold3/human_mdm2_p53_no_msa.json",
+      "sha256": "206db3ad525a95886a490cefeb53b3c46f9993abcaf916d58b6f60a980ba7f4f"
+    },
+    {
+      "file": "workflows/modern_tools/boltz/human_mdm2_p53_no_msa.yaml",
+      "sha256": "357e1863e2c7284b2137830c0d5912f5f66fe4f8b71813d2948ef8de90fc4266"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/7xl0_resolved.yaml",
+      "sha256": "dfb8547e783595eb8a86d9645913449fc3f641efbd9db4cf31e51ef74d4c10ee"
+    },
+    {
+      "file": "workflows/modern_tools/boltzgen/penguinpox.yaml",
+      "sha256": "52c575a2dd250b373482361a736760f785b812f97e7e10cd86bd9c3e17180d4f"
+    }
+  ],
+  "scaffold_edit": "include chain A residues 1..121",
+  "human_case": {
+    "pdb": "1YCR",
+    "chains": {
+      "A": "ETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCSNDLLGDLFGVPSFSVKEHRKIYTMIYRNLVV",
+      "B": "ETFSDLWKLLPEN"
+    },
+    "msa": "explicitly empty for workflow exercise",
+    "experimental_coordinates_used_as_prediction_input": false
+  }
+}

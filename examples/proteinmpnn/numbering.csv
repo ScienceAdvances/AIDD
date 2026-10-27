@@ -1,0 +1,14 @@
+parsed_position,pdb_chain,pdb_residue,residue,fixed
+1,B,17,GLU,False
+2,B,18,THR,False
+3,B,19,PHE,True
+4,B,20,SER,False
+5,B,21,ASP,False
+6,B,22,LEU,False
+7,B,23,TRP,True
+8,B,24,LYS,False
+9,B,25,LEU,False
+10,B,26,LEU,True
+11,B,27,PRO,False
+12,B,28,GLU,False
+13,B,29,ASN,False

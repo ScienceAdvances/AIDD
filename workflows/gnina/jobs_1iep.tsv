@@ -1,0 +1,4 @@
+job_id	receptor	ligand	reference	seed
+abl_imatinib_seed11	example_1iep/receptor.pdb	example_1iep/ligand_input.sdf	example_1iep/reference.sdf	11
+abl_imatinib_seed23	example_1iep/receptor.pdb	example_1iep/ligand_input.sdf	example_1iep/reference.sdf	23
+abl_imatinib_seed47	example_1iep/receptor.pdb	example_1iep/ligand_input.sdf	example_1iep/reference.sdf	47

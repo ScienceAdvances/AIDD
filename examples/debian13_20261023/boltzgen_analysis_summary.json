@@ -1,0 +1,16 @@
+{
+  "candidates": 2,
+  "ranked": 2,
+  "passed_all_filters": 0,
+  "complex_filter_rmsd_range_A": [
+    22.46054,
+    24.16721
+  ],
+  "binder_only_rmsd_range_A": [
+    1.33133,
+    1.38864
+  ],
+  "esmfold2_executed": false,
+  "version": "0.3.2",
+  "interpretation": "Ranking penalizes failed filters but still fills the requested budget. Neither candidate passes all filters; binder folding alone does not establish a preserved complex pose."
+}

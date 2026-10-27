@@ -1,0 +1,9 @@
+# Debian analysis dependencies already available in .venv-analysis-debian13.
+# Reuse the existing environment; this file documents the tested versions.
+numpy==2.0.2
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+biopython==1.88
+mdtraj==1.11.2
+openpyxl==3.1.5

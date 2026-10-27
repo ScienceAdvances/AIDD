@@ -1,0 +1,21 @@
+{
+  "name": "rfantibody_rf2_workdir",
+  "command": [
+    "/opt/bioinfra/repos/RFantibody/.venv/bin/python",
+    "/opt/bioinfra/repos/RFantibody/scripts/rf2_predict.py",
+    "input.quiver=${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/rfantibody/2_proteinmpnn.qv",
+    "output.quiver=${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/rfantibody/3_rf2.qv",
+    "inference.num_recycles=10",
+    "inference.cautious=True",
+    "inference.hotspot_show_proportion=0.0",
+    "model.model_weights=/opt/bioinfra/repos/RFantibody/weights/RF2_ab.pt",
+    "+inference.seed=42",
+    "hydra.run.dir=${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023/hydra_rf2",
+    "hydra.job.chdir=True"
+  ],
+  "cwd": "${ORIGINAL_PROJECT_ROOT}/debian13_runtime_20261023",
+  "started": "2026-10-23T19:00:36.081500+08:00",
+  "returncode": 0,
+  "success": true,
+  "elapsed_seconds": 356.63611715800016
+}

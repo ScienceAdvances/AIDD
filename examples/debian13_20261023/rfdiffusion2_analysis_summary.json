@@ -1,0 +1,99 @@
+{
+  "completed": true,
+  "backbones": 1,
+  "sequence_candidates": 8,
+  "chai_predictions": 40,
+  "source": "${REPOSITORY_ROOT}/examples/runtime_source/rfdiffusion2/compiled_metrics.csv",
+  "compiled_shape": [
+    8,
+    681
+  ],
+  "optional_esm_embeddings": false,
+  "minimum_ligand_rmsd_range_A": [
+    6.4923816,
+    11.40025
+  ],
+  "rows": [
+    {
+      "candidate_row": 1,
+      "source_csv_line": 2,
+      "model_with_minimum_ligand_rmsd": 3,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 9.064372,
+      "complex_plddt_for_that_model": 0.463327854871749,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 7.767236709594727
+    },
+    {
+      "candidate_row": 2,
+      "source_csv_line": 3,
+      "model_with_minimum_ligand_rmsd": 0,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 6.915489,
+      "complex_plddt_for_that_model": 0.64450317621231,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 7.134893417358398
+    },
+    {
+      "candidate_row": 3,
+      "source_csv_line": 4,
+      "model_with_minimum_ligand_rmsd": 0,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 7.6043954,
+      "complex_plddt_for_that_model": 0.602544724941253,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 2.969693422317505
+    },
+    {
+      "candidate_row": 4,
+      "source_csv_line": 5,
+      "model_with_minimum_ligand_rmsd": 1,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 7.052118,
+      "complex_plddt_for_that_model": 0.7268317341804501,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 7.984341144561768
+    },
+    {
+      "candidate_row": 5,
+      "source_csv_line": 6,
+      "model_with_minimum_ligand_rmsd": 1,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 8.573606,
+      "complex_plddt_for_that_model": 0.8295869231224061,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 2.711453676223755
+    },
+    {
+      "candidate_row": 6,
+      "source_csv_line": 7,
+      "model_with_minimum_ligand_rmsd": 0,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 11.40025,
+      "complex_plddt_for_that_model": 0.481518357992172,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 11.457782745361328
+    },
+    {
+      "candidate_row": 7,
+      "source_csv_line": 8,
+      "model_with_minimum_ligand_rmsd": 4,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 6.4923816,
+      "complex_plddt_for_that_model": 0.663942992687225,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 6.9996514320373535
+    },
+    {
+      "candidate_row": 8,
+      "source_csv_line": 9,
+      "model_with_minimum_ligand_rmsd": 0,
+      "motif_rmsd_to_input_A": 3.697245e-08,
+      "idealized_motif_constellation_rmsd_A": 0.0528036020696163,
+      "minimum_pocket_aligned_ligand_rmsd_A": 6.51701,
+      "complex_plddt_for_that_model": 0.751752316951751,
+      "backbone_aligned_motif_atom_rmsd_to_reference_A": 2.976675748825073
+    }
+  ],
+  "experimental_activity_evaluated": false
+}
